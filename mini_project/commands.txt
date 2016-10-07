@@ -1,6 +1,6 @@
 $HADOOP_HOME/sbin/start-dfs.sh 
 $HADOOP_HOME/sbin/start-yarn.sh 
-cd mini_project/
+cd ~/BigData/mini_project/
 javac -classpath `yarn classpath` -d . Groupings.java
 jar cf groupings.jar Groupings*.class
 hadoop fs -rm -r /user/hadoop/mini_project 
