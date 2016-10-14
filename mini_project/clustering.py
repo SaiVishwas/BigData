@@ -2,12 +2,13 @@ import sys
 
 from pyspark import SparkContext, SparkConf
 
-
-def get_split_points(input_file , indices):
-  
+def get_stats(input_file , indices) :
   tokenized = sc.textFile(input_file).flatMap(lambda line: line.split("\n"))
-  stat = tokenized.map(lambda entry: (entry, [float(entry.split(",")[indices[0]]),float(entry.split(",")[indices[1]]),int(entry.split(",")[indices[2]]),0]))
+  stat = tokenized.map(lambda entry: (entry, [float(entry.split(",")[indices[0]]),float(entry.split(",")[indices[1]]),float(entry.split(",")[indices[2]]),0]))
+  return stat
 
+def get_split_points(stat):
+  
   split_info = []
   
   for i in stat.collect() :
@@ -61,6 +62,33 @@ def get_split_points(input_file , indices):
   return first_splitpoints , second_splitpoints , third_splitpoints
 
 
+def get_cluster_no( stat , first_splitpoints , second_splitpoints , third_splitpoints ):
+  cluster_no = 0
+  if stat[0] < first_splitpoints[0] :
+    if stat[1] < second_splitpoints[0] :
+      if stat[2] < third_splitpoints[0] :
+        cluster_no = 1
+      else :
+        cluster_no = 2
+    else : 
+      if stat[2] < third_splitpoints[1] :
+        cluster_no = 3
+      else :
+        cluster_no = 4
+  else :
+    if stat[1] < second_splitpoints[1] :
+      if stat[2] < third_splitpoints[2] :
+        cluster_no = 5
+      else :
+        cluster_no = 6
+    else : 
+      if stat[2] < third_splitpoints[3] :
+        cluster_no = 7
+      else :
+        cluster_no = 8      
+
+  return cluster_no     
+
 
 
 if __name__ == "__main__":
@@ -70,10 +98,37 @@ if __name__ == "__main__":
   sc = SparkContext(conf=conf)
   output = open("output_1.txt", 'w')
 
-  avg_splitpoints , sr_splitpoints , bf_splitpoints = get_split_points("batsman_input/batsmen.csv" , [7,9,8])
-  output.write('\n' + repr(avg_splitpoints) + '\n' + repr(sr_splitpoints) + '\n' + repr(bf_splitpoints) + '\n\n')
+  batsmen_stat = get_stats("batsman_input/batsmen.csv" , [7,9,8])
+  bat_avg_splitpoints , bat_sr_splitpoints , bat_bf_splitpoints = get_split_points(batsmen_stat)
+  #output.write('\n' + repr(bat_avg_splitpoints) + '\n' + repr(bat_sr_splitpoints) + '\n' + repr(bat_bf_splitpoints) + '\n\n')
+
+  clusters = []
+
+  for i in batsmen_stat.collect() : 
+    #output.write(repr(i))
+    cluster_no = get_cluster_no(i[1] , bat_avg_splitpoints , bat_sr_splitpoints , bat_bf_splitpoints)
+    #output.write(repr(cluster_no))
+    clusters.append([str(i[0].split(",")[0]) , [cluster_no]])
 
 
+  bowler_stat = get_stats("bowler_input/bowlers.csv" , [11,10,4])
+  bowl_sr_splitpoints , bowl_economy_splitpoints , bowl_avg_splitpoints = get_split_points(bowler_stat)
+  #output.write('\n' + repr(bowl_sr_splitpoints) + '\n' + repr(bowl_economy_splitpoints) + '\n' + repr(bowl_avg_splitpoints) + '\n\n')
+
+  count = 0
+  for i in bowler_stat.collect() : 
+    #output.write(repr(i))
+    cluster_no = get_cluster_no(i[1] , bowl_sr_splitpoints , bowl_economy_splitpoints , bowl_avg_splitpoints)
+    #output.write(repr(cluster_no))
+    #clusters.append([str(i[0].split(",")[0]) , [cluster_no]])  
+    clusters[count][1].append(cluster_no)
+    count += 1
+
+  #output.write(repr(clusters))  
+
+  for i in clusters :
+    output.write(i[0] + '\t' + str(i[1][0]) + '\t' + str(i[1][1]) + '\n')
+    #output.write(str(i[1][1]))
   
 
 
