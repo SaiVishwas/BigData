@@ -41,5 +41,11 @@ if __name__ == "__main__":
 
   print_results('batsmen' , batsman_cluster , batsman_cluster_centers)
   print_results('bowler' , bowler_cluster , bowler_cluster_centers)
+  
+  import pickle
+  #favorite_color = { "lion": "yellow", "kitty": "red" }
+  pickle.dump(  batsman_cluster , open( "batsman_clusters.p", "wb" ) )
+  pickle.dump(  bowler_cluster , open( "bowler_clusters.p", "wb" ) )  
+
 
   sc.stop()
