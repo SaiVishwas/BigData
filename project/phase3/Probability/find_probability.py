@@ -1,57 +1,97 @@
 import pickle 
+import random
+def player_to_cluster_mapping(clusters_of_players)		:
+	player_to_cluster = dict()
+	for i,j in clusters_of_players.iteritems():
+		for t in j:
+			player_to_cluster[t] = i
+	return player_to_cluster		
 
-player_vs_player_stat = pickle.load( open( "playerVSplayer_stat.p", "rb" ) )
-clusters_of_bat = pickle.load( open( "batsman_clusters.p", "rb" ) )
-clusters_of_bowl = pickle.load( open( "bowler_clusters.p", "rb" ) )
+def create_cluster_vs_cluster_stats(bowler_clusters) :
 
-#print type(player_vs_player_stat)
+	inter_cluster_stats = [[0]*8 for i in range(8)]
 
-batsman_clusters = dict()
-for i,j in clusters_of_bat.iteritems():
-	for t in j:
-		batsman_clusters[t] = i
+	for bat_cluster_no , list_of_cluster_players in clusters_of_bat.iteritems():
+		for bowl_cluster_no in range(0,8):
+			tmp = [0 for i in range(10)]
+			for batsman_name in list_of_cluster_players:
+				if batsman_name in player_vs_player_stat :
+					bat_stat = player_vs_player_stat[batsman_name]
+					#print bat_stat
+					for bowler_name , bowl_stat in bat_stat.iteritems():
+						#print bowl_stat
+						if bowler_clusters[bowler_name] == bowl_cluster_no :
+							for n in range(0,10):
+								tmp[n] = tmp[n] + bowl_stat[n]
+				
+			inter_cluster_stats[bat_cluster_no][bowl_cluster_no] = tmp
 
-bowler_clusters = dict()
-for i,j in clusters_of_bowl.iteritems():
-	for t in j:
-		bowler_clusters[t] = i
+	return inter_cluster_stats		
+
+def get_probability_of_run(batsman_name , bowler_name , runs ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) :
+	bat_cluster_no = batsman_to_cluster_mapping[batsman_name]
+	bowl_cluster_no = bowler_to_cluster_mapping[bowler_name]
+	stats = cluster_vs_cluster_stats[bat_cluster_no][bowl_cluster_no]
+
+	balls = sum(stats[:8])
+	if runs <= 6	:
+		freq = stats[runs]
+	elif runs > 6 :
+		freq = stats[7]
+
+	probability = freq/float(balls)
+	
+	return probability	
+
+def get_class(cumulative_pdf_range , n):
+	for i in range(0,len(cumulative_pdf_range)):
+		if n < cumulative_pdf_range[i]:
+			return i
+def simulate(batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping ):
+	pdf = []
+
+	for i in range(0,8)	:
+		pdf.append(get_probability_of_run(batsman_name, bowler_name , i ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
+	print pdf
+	#print sum(pdf)	
+
+	cumulative_pdf = []
+	cumulative_pdf.append(pdf[0])
+	for i in range(1,len(pdf)):
+		cumulative_pdf.append(cumulative_pdf[i-1] + pdf[i])
+	#print cumulative_pdf
+
+	cumulative_pdf_range = []
+	for i in range(0,len(cumulative_pdf)):
+		cumulative_pdf_range.append(int(cumulative_pdf[i]*100))
+	#print cumulative_pdf_range
+	
+	rand_no = random.randint(0,99)
+
+	prediction = get_class(cumulative_pdf_range , rand_no)
+
+	return prediction
 
 
-#print batsman_clusters
-#print bowler_clusters
 
-inter_cluster_stats = [[0]*8 for i in range(8)]
-'''
-for i,j in clusters_of_bat.iteritems() :
-	tmp = [0 for i in range(10)]
-	for bowl_cluster in clusters_of_bowl:
-		for bowler,stat in j.iteritems() :
-			if bowler_clusters[bowler] == bowl_cluster :
-				for n in range(0,8):
-					tmp[n] = tmp[n] + stat[n]
-				tmp[8] = stat[9]
-				tmp[9] = stat[10]
-		
-	inter_cluster_stats[i][bowl_cluster] = tmp
+def predict_next(batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) :
+	bat_cluster_no = batsman_to_cluster_mapping[batsman_name]
+	bowl_cluster_no = bowler_to_cluster_mapping[bowler_name]
+	stats = cluster_vs_cluster_stats[bat_cluster_no][bowl_cluster_no]
 
-print inter_cluster_stats
-'''
+	simulate(stats , batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping)
 
-for bat_cluster_no , list_of_cluster_players in clusters_of_bat.iteritems():
-	for bowl_cluster_no in range(0,8):
-		tmp = [0 for i in range(10)]
-		for batsman_name in list_of_cluster_players:
-			bat_stat = player_vs_player_stat[batsman_name]
-			for bowler_name , bowl_stat in bat_stat.iteritems():
-				if bowler_clusters[bowler_name] == bowl_cluster_no :
-					for n in range(0,8):
-						tmp[n] = tmp[n] + bowl_stat[n]
-				tmp[8] = bowl_stat[9]
-				#tmp[9] = bowl_stat[10]
-		
-		inter_cluster_stats[bat_cluster_no][bowl_cluster_no] = tmp
 
-print inter_cluster_stats		
+if __name__ == "__main__":
+	player_vs_player_stat = pickle.load( open( "playerVSplayer_stat.p", "rb" ) )
+	clusters_of_bat = pickle.load( open( "batsman_clusters.p", "rb" ) )
+	clusters_of_bowl = pickle.load( open( "bowler_clusters.p", "rb" ) )
 
+	batsman_to_cluster_mapping = player_to_cluster_mapping(clusters_of_bat)
+	bowler_to_cluster_mapping = player_to_cluster_mapping(clusters_of_bowl)
+	cluster_vs_cluster_stats = create_cluster_vs_cluster_stats(bowler_to_cluster_mapping)
+	#print cluster_vs_cluster_stats
+	#print (get_probability_of_run("Rohit Sharma" , "Sunil Narine" , 1 ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
+	print (simulate("Rohit Sharma" , "Sunil Narine" , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
 
 

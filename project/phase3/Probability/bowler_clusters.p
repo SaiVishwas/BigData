@@ -176,7 +176,7 @@ aS'Dale Steyn'
 p87
 asI7
 (lp88
-S'Virat Kohli '
+S'Virat Kohli'
 p89
 aS'Faf du Plessis'
 p90
