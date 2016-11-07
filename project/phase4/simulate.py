@@ -37,6 +37,7 @@ class Bowler:
         self.runs = 0
         self.overs = 0
         self.wickets = 0
+        self.part = None
         
     def get_name(self):
         return self.name
@@ -56,18 +57,25 @@ class Bowler:
     def increment_wickets(self):
         self.wickets += 1
         
+    def set_part(self, part):
+        self.part = part
+        
     def __str__(self):
         econ = "-"
+        overs = str(self.overs)
         if self.overs:
-            econ = str("{:.2f}".format(self.runs / self.overs))
-        return "{:30}{:20}{:20}{:20}{:20}".format(self.name, str(self.overs), str(self.wickets), str(self.runs), econ)
+            econ = str("{:.2f}".format(self.runs / (self.overs)))
+        if self.part:
+            overs = str(self.overs)+"."+str(self.part)
+            econ = str("{:.2f}".format(self.runs / (self.overs + self.part/6)))
+        return "{:30}{:20}{:20}{:20}{:20}".format(self.name, overs, str(self.wickets), str(self.runs), econ)
         
         
 def get_probability_of_run(batsman_name , bowler_name , runs ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) :
 	bat_cluster_no = batsman_to_cluster_mapping[batsman_name]
 	bowl_cluster_no = bowler_to_cluster_mapping[bowler_name]
 	stats = cluster_vs_cluster_stats[bat_cluster_no][bowl_cluster_no]
-	balls = sum(stats[:8])
+	balls = max(sum(stats[:8]), 1)
 	if runs <= 6	:
 		freq = stats[runs]
 	elif runs > 6 :
@@ -96,13 +104,18 @@ def simulate_ball(batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman
 		cumulative_pdf_range.append(int(cumulative_pdf[i]*100))
 	
 	rand_no = random.randint(0,99)
-	prediction = 0
 	prediction = get_class(cumulative_pdf_range , rand_no)
-	return prediction
+	if prediction:
+	    return prediction
+	else:
+	    return 0
 
 
 
-def simulate_inning(bat_map, bowl_map, cluster_map, batting, bowling, target=None):
+def simulate_first_inning(bat_map, bowl_map, cluster_map, batting, bowling):
+    print("*"*60)        
+    print("Batting : "+batting+", Bowling : "+bowling)
+    print("*"*60)
     batsmens = open("teams/"+batting+"/batting_order").readlines()
     batsmens = [Batsmen(x.strip(), bat_map[x.strip()], 0.99) for x in batsmens]
     bowlers = open("teams/"+bowling+"/bowling_order").readlines()
@@ -117,6 +130,7 @@ def simulate_inning(bat_map, bowl_map, cluster_map, batting, bowling, target=Non
         currbowler = bowlers.pop(0)
         while wickets != 10 and balls != 6:
             onstrike.increment_balls()
+            balls += 1
             if onstrike.is_out():
                 wickets += 1
                 currbowler.increment_wickets()
@@ -134,20 +148,92 @@ def simulate_inning(bat_map, bowl_map, cluster_map, batting, bowling, target=Non
                 if run in [1, 3, 5, 7]:
                     onstrike, offstrike = offstrike, onstrike
                     
-            balls += 1
-            
-                
-            print("Overs :"+str(overs)+"."+str(balls)+", Score :"+str(score)+", Wickets :"+str(wickets))
+            print("Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
         
-        currbowler.increment_overs()
-        random.shuffle(bowlers)
-        if currbowler.get_overs() <= 4:
-            bowlers.append(currbowler)
+        if balls == 6:
+            currbowler.increment_overs()
+            overs += 1
+            random.shuffle(bowlers)
+            if currbowler.get_overs() < 4:
+                bowlers.append(currbowler)
+            else:
+                otherbowlers.append(currbowler)        
+            
+            onstrike, offstrike = offstrike, onstrike
+            print("*"*60)
         else:
-            otherbowlers.append(currbowler)        
-        overs += 1
-        onstrike, offstrike = offstrike, onstrike
-        print("*"*60)
+            currbowler.set_part(balls)
+        
+        
+    print("\n"+"*"*60)        
+    print("Innings Scoreboard")
+    print("Batting")
+    print("{:50}{:3} {}".format("Name", "Runs", "Balls") )
+    for bat in otherbatsmens+batsmens:
+        print(bat)
+        
+    print("*"*110)
+    print("Bowling")
+    print("{:30}{:20}{:20}{:20}{:20}".format("Name", "Overs", "Wickets", "Runs", "Econ"))
+    for bowl in set(otherbowlers+bowlers+[currbowler]):
+        print(bowl)
+    print("*"*110)
+    return score
+    
+def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, target):
+    print("*"*60)
+    print("Chasing Target of "+str(target)+" runs.")        
+    print("Batting : "+batting+", Bowling : "+bowling)
+    print("*"*60)
+    batsmens = open("teams/"+batting+"/batting_order").readlines()
+    batsmens = [Batsmen(x.strip(), bat_map[x.strip()], 0.99) for x in batsmens]
+    bowlers = open("teams/"+bowling+"/bowling_order").readlines()
+    bowlers = [Bowler(x.strip(), bowl_map[x.strip()]) for x in bowlers]
+    wickets, overs, score = 0, 0, 0
+    onstrike = batsmens.pop(0)
+    offstrike = batsmens.pop(0)
+    otherbatsmens = [onstrike, offstrike]   
+    otherbowlers = []
+    while wickets != 10 and overs != 20 and score < target:
+        balls = 0
+        currbowler = bowlers.pop(0)
+        while wickets != 10 and balls != 6 and score < target:
+            onstrike.increment_balls()
+            balls += 1
+            if onstrike.is_out():
+                wickets += 1
+                currbowler.increment_wickets()
+                if wickets != 10:
+                    onstrike = batsmens.pop(0)
+                    otherbatsmens.append(onstrike)
+                    
+            else:
+                run = simulate_ball(onstrike.get_name(), currbowler.get_name(),
+                        cluster_map, bat_map, bowl_map)        
+                onstrike.add_runs(run)
+                onstrike.update_prob()
+                currbowler.add_runs(run)
+                score += run
+                if run in [1, 3, 5, 7]:
+                    onstrike, offstrike = offstrike, onstrike
+                
+            print("Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
+        
+        if score >= target:
+            break
+        if balls == 6:
+            currbowler.increment_overs()
+            overs += 1
+            random.shuffle(bowlers)
+            if currbowler.get_overs() < 4:
+                bowlers.append(currbowler)
+            else:
+                otherbowlers.append(currbowler)        
+            
+            onstrike, offstrike = offstrike, onstrike
+            print("*"*60)
+        else:
+            currbowler.set_part(balls)
     
     print("\n"+"*"*60)        
     print("Innings Scoreboard")
@@ -159,9 +245,10 @@ def simulate_inning(bat_map, bowl_map, cluster_map, batting, bowling, target=Non
     print("*"*110)
     print("Bowling")
     print("{:30}{:20}{:20}{:20}{:20}".format("Name", "Overs", "Wickets", "Runs", "Econ"))
-    for bowl in otherbowlers+bowlers:
+    for bowl in set(otherbowlers+bowlers+[currbowler]):
         print(bowl)
     print("*"*110)
+    return score
 
 if __name__ == "__main__":
     dump = pickle.load(open("mapping.bin", "rb"))
@@ -175,5 +262,16 @@ if __name__ == "__main__":
     print("*"*60)
     print("Toss won by ", teams[toss], ", Chooses to Bat First!")
     print("*"*60)
-    target = simulate_inning(batsmen_map, bowler_map,
+    score1 = simulate_first_inning(batsmen_map, bowler_map,
             cluster_vs_cluster, teams[toss], teams[toss-1])
+    score2 = simulate_second_inning(batsmen_map, bowler_map,
+            cluster_vs_cluster, teams[toss-1], teams[toss], score1)
+         
+    print("*"*110)    
+    if score1 > score2:
+        print("Team : "+teams[toss]+", Wins by : "+str(score1-score2)+" runs.")
+    elif score2 > score1:
+        print("Team : "+teams[toss-1]+", Wins by : "+str(score2-score1)+" runs.")
+    else:
+        print("Match Draw")
+    print("*"*110)
