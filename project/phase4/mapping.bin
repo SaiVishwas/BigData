@@ -1,0 +1,1251 @@
+(dp0
+S'clustervscluster'
+p1
+(lp2
+(lp3
+(lp4
+I84
+aI68
+aI13
+aI0
+aI21
+aI0
+aI10
+aI0
+aI238
+aI196
+aa(lp5
+I81
+aI84
+aI16
+aI0
+aI23
+aI1
+aI10
+aI0
+aI273
+aI215
+aa(lp6
+I55
+aI53
+aI9
+aI0
+aI22
+aI0
+aI11
+aI0
+aI225
+aI150
+aa(lp7
+I115
+aI96
+aI16
+aI1
+aI30
+aI0
+aI19
+aI0
+aI365
+aI277
+aa(lp8
+I6
+aI9
+aI4
+aI0
+aI1
+aI0
+aI4
+aI0
+aI45
+aI24
+aa(lp9
+I4
+aI15
+aI1
+aI0
+aI4
+aI0
+aI3
+aI0
+aI51
+aI27
+aa(lp10
+I65
+aI66
+aI17
+aI0
+aI19
+aI0
+aI12
+aI0
+aI248
+aI179
+aa(lp11
+I17
+aI21
+aI3
+aI2
+aI10
+aI0
+aI5
+aI0
+aI103
+aI58
+aaa(lp12
+(lp13
+I4
+aI9
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI11
+aI14
+aa(lp14
+I23
+aI9
+aI1
+aI0
+aI1
+aI0
+aI1
+aI0
+aI21
+aI35
+aa(lp15
+I5
+aI5
+aI0
+aI0
+aI0
+aI0
+aI1
+aI0
+aI11
+aI11
+aa(lp16
+I23
+aI21
+aI12
+aI0
+aI6
+aI0
+aI3
+aI0
+aI87
+aI65
+aa(lp17
+I0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp18
+I13
+aI19
+aI1
+aI0
+aI2
+aI0
+aI0
+aI0
+aI29
+aI35
+aa(lp19
+I11
+aI13
+aI2
+aI0
+aI3
+aI0
+aI0
+aI0
+aI29
+aI29
+aa(lp20
+I2
+aI4
+aI0
+aI0
+aI1
+aI0
+aI0
+aI0
+aI8
+aI7
+aaa(lp21
+(lp22
+I71
+aI93
+aI18
+aI0
+aI21
+aI0
+aI12
+aI0
+aI285
+aI215
+aa(lp23
+I105
+aI109
+aI9
+aI2
+aI61
+aI0
+aI6
+aI0
+aI413
+aI292
+aa(lp24
+I79
+aI78
+aI10
+aI1
+aI22
+aI0
+aI4
+aI0
+aI213
+aI194
+aa(lp25
+I68
+aI89
+aI12
+aI3
+aI28
+aI0
+aI7
+aI0
+aI276
+aI207
+aa(lp26
+I12
+aI11
+aI6
+aI0
+aI3
+aI0
+aI0
+aI0
+aI35
+aI32
+aa(lp27
+I13
+aI14
+aI3
+aI0
+aI5
+aI0
+aI3
+aI0
+aI58
+aI38
+aa(lp28
+I90
+aI92
+aI18
+aI0
+aI32
+aI0
+aI4
+aI0
+aI280
+aI236
+aa(lp29
+I27
+aI27
+aI2
+aI1
+aI6
+aI0
+aI5
+aI0
+aI88
+aI68
+aaa(lp30
+(lp31
+I8
+aI16
+aI2
+aI0
+aI2
+aI0
+aI2
+aI0
+aI40
+aI30
+aa(lp32
+I24
+aI32
+aI4
+aI0
+aI7
+aI0
+aI4
+aI0
+aI92
+aI71
+aa(lp33
+I18
+aI17
+aI1
+aI0
+aI2
+aI0
+aI0
+aI0
+aI27
+aI38
+aa(lp34
+I30
+aI38
+aI12
+aI0
+aI4
+aI0
+aI4
+aI0
+aI102
+aI88
+aa(lp35
+I0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aa(lp36
+I2
+aI7
+aI2
+aI0
+aI0
+aI0
+aI2
+aI0
+aI23
+aI13
+aa(lp37
+I9
+aI21
+aI3
+aI0
+aI1
+aI0
+aI5
+aI0
+aI61
+aI39
+aa(lp38
+I3
+aI3
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI5
+aI7
+aaa(lp39
+(lp40
+I59
+aI79
+aI27
+aI0
+aI28
+aI0
+aI10
+aI0
+aI305
+aI203
+aa(lp41
+I77
+aI91
+aI21
+aI1
+aI24
+aI0
+aI8
+aI0
+aI280
+aI222
+aa(lp42
+I74
+aI94
+aI26
+aI0
+aI29
+aI0
+aI10
+aI0
+aI322
+aI233
+aa(lp43
+I82
+aI81
+aI17
+aI0
+aI34
+aI0
+aI12
+aI0
+aI323
+aI226
+aa(lp44
+I3
+aI7
+aI0
+aI0
+aI3
+aI0
+aI0
+aI0
+aI19
+aI13
+aa(lp45
+I12
+aI18
+aI3
+aI0
+aI2
+aI0
+aI4
+aI0
+aI56
+aI39
+aa(lp46
+I135
+aI156
+aI32
+aI1
+aI38
+aI0
+aI19
+aI0
+aI489
+aI381
+aa(lp47
+I23
+aI31
+aI8
+aI1
+aI10
+aI0
+aI3
+aI0
+aI108
+aI76
+aaa(lp48
+(lp49
+I12
+aI10
+aI0
+aI0
+aI2
+aI0
+aI7
+aI0
+aI60
+aI31
+aa(lp50
+I23
+aI12
+aI2
+aI0
+aI10
+aI0
+aI6
+aI0
+aI92
+aI53
+aa(lp51
+I39
+aI16
+aI1
+aI0
+aI4
+aI0
+aI0
+aI0
+aI34
+aI60
+aa(lp52
+I27
+aI8
+aI0
+aI0
+aI6
+aI0
+aI5
+aI0
+aI62
+aI46
+aa(lp53
+I0
+aI5
+aI0
+aI0
+aI1
+aI0
+aI2
+aI0
+aI21
+aI8
+aa(lp54
+I2
+aI1
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI1
+aI3
+aa(lp55
+I10
+aI12
+aI0
+aI0
+aI5
+aI0
+aI4
+aI0
+aI56
+aI31
+aa(lp56
+I5
+aI4
+aI0
+aI0
+aI0
+aI0
+aI0
+aI0
+aI4
+aI9
+aaa(lp57
+(lp58
+I105
+aI89
+aI12
+aI0
+aI32
+aI0
+aI12
+aI0
+aI313
+aI250
+aa(lp59
+I154
+aI146
+aI30
+aI0
+aI58
+aI0
+aI25
+aI0
+aI588
+aI413
+aa(lp60
+I106
+aI116
+aI24
+aI0
+aI38
+aI0
+aI21
+aI0
+aI442
+aI305
+aa(lp61
+I162
+aI173
+aI40
+aI3
+aI44
+aI0
+aI29
+aI0
+aI612
+aI451
+aa(lp62
+I10
+aI10
+aI1
+aI0
+aI0
+aI0
+aI1
+aI0
+aI18
+aI22
+aa(lp63
+I18
+aI36
+aI13
+aI0
+aI11
+aI0
+aI4
+aI0
+aI130
+aI82
+aa(lp64
+I139
+aI138
+aI20
+aI1
+aI52
+aI0
+aI21
+aI0
+aI515
+aI371
+aa(lp65
+I54
+aI44
+aI7
+aI0
+aI21
+aI0
+aI3
+aI0
+aI160
+aI129
+aaa(lp66
+(lp67
+I39
+aI59
+aI1
+aI0
+aI5
+aI0
+aI8
+aI0
+aI129
+aI112
+aa(lp68
+I80
+aI54
+aI6
+aI0
+aI21
+aI0
+aI8
+aI0
+aI198
+aI169
+aa(lp69
+I13
+aI12
+aI0
+aI1
+aI0
+aI0
+aI0
+aI0
+aI15
+aI26
+aa(lp70
+I75
+aI23
+aI8
+aI0
+aI14
+aI0
+aI6
+aI0
+aI131
+aI126
+aa(lp71
+I1
+aI16
+aI5
+aI0
+aI7
+aI0
+aI1
+aI0
+aI60
+aI30
+aa(lp72
+I4
+aI6
+aI0
+aI0
+aI2
+aI0
+aI1
+aI0
+aI20
+aI13
+aa(lp73
+I40
+aI35
+aI3
+aI0
+aI10
+aI0
+aI3
+aI0
+aI99
+aI91
+aa(lp74
+I23
+aI18
+aI3
+aI0
+aI11
+aI0
+aI8
+aI0
+aI116
+aI63
+aaasS'bowlmap'
+p75
+(dp76
+S'Lokesh Rahul'
+p77
+I4
+sS'Sanju Samson'
+p78
+I4
+sS'Quinton de Kock'
+p79
+I4
+sS'Jean-Paul Duminy'
+p80
+I0
+sS'Rajat Bhatia'
+p81
+I3
+sS'Chris Morris'
+p82
+I3
+sS'Morne Morkel'
+p83
+I6
+sS'Azhar Mahmood'
+p84
+I2
+sS'Sarfaraz Khan'
+p85
+I4
+sS'Manish Pandey'
+p86
+I4
+sS'Mitchell Starc'
+p87
+I1
+sS'Virender Sehwag'
+p88
+I7
+sS'Yuzvendra Chahal'
+p89
+I1
+sS'Ravindra Jadeja'
+p90
+I3
+sS'Shaun Marsh'
+p91
+I4
+sS'Kieron Pollard'
+p92
+I6
+sS'Harshal Patel'
+p93
+I0
+sS'Glenn Maxwell'
+p94
+I0
+sS'Parvinder Awana'
+p95
+I0
+sS'Lasith Malinga'
+p96
+I2
+sS'Yuvraj Singh'
+p97
+I0
+sS'Mitchell Johnson'
+p98
+I1
+sS'George Bailey'
+p99
+I4
+sS'Rohit Sharma'
+p100
+I7
+sS'Suresh Raina'
+p101
+I0
+sS'Angelo Mathews'
+p102
+I1
+sS'S Badrinath'
+p103
+I4
+sS'MS Dhoni'
+p104
+I4
+sS'Faf du Plessis'
+p105
+I7
+sS'Samuel Badree'
+p106
+I3
+sS'Corey Anderson'
+p107
+I7
+sS'Ankit Sharma'
+p108
+I7
+sS'Amit Mishra'
+p109
+I6
+sS'Imran Tahir'
+p110
+I3
+sS'Shikhar Dhawan'
+p111
+I4
+sS'Pragyan Ojha'
+p112
+I3
+sS'Albie Morkel'
+p113
+I2
+sS'Bhuvneshwar Kumar'
+p114
+I1
+sS'Virat Kohli'
+p115
+I7
+sS'Johan Botha'
+p116
+I6
+sS'Ashish Nehra'
+p117
+I3
+sS'Steven Smith'
+p118
+I7
+sS'Manoj Tiwary'
+p119
+I4
+sS'Pawan Negi'
+p120
+I0
+sS'Dale Steyn'
+p121
+I6
+sS'Eoin Morgan'
+p122
+I4
+sS'Aiden Blizzard'
+p123
+I4
+sS'Stuart Binny'
+p124
+I0
+sS'Naman Ojha'
+p125
+I4
+sS'Ben Cutting'
+p126
+I0
+sS'Unmukt Chand'
+p127
+I4
+sS'Gautam Gambhir'
+p128
+I4
+sS'Chris Gayle'
+p129
+I1
+sS'Andre Russell'
+p130
+I6
+sS'Brad Hogg'
+p131
+I3
+sS'AB de Villiers'
+p132
+I4
+sS'Wriddhiman Saha'
+p133
+I4
+sS'Parthiv Patel'
+p134
+I4
+sS'Ben Hilfenhaus'
+p135
+I1
+sS'Kyle Abbott'
+p136
+I1
+sS'Shane Watson'
+p137
+I6
+sS'Dinesh Karthik'
+p138
+I4
+sS'Mayank Agarwal'
+p139
+I4
+sS'Dhawal Kulkarni'
+p140
+I1
+sS'Harbhajan Singh'
+p141
+I2
+sS'Karanveer Singh'
+p142
+I4
+sS'Kane Williamson'
+p143
+I7
+sS'Darren Sammy'
+p144
+I3
+sS'Brendon McCullum'
+p145
+I4
+sS'Anureet Singh'
+p146
+I7
+sS'Robin Uthappa'
+p147
+I4
+sS'James Faulkner'
+p148
+I3
+sS'David Warner'
+p149
+I4
+sS'Axar Patel'
+p150
+I0
+sS'Kuldeep Yadav'
+p151
+I7
+sS'Mohammed Shami'
+p152
+I0
+sS'Dwayne Bravo'
+p153
+I5
+sS'Varun Aaron'
+p154
+I0
+sS'Moises Henriques'
+p155
+I1
+sS'Kevin Pietersen'
+p156
+I7
+sS'Sunil Narine'
+p157
+I2
+sS'David Miller'
+p158
+I4
+sS'Ajinkya Rahane'
+p159
+I4
+sS'Jasprit Bumrah'
+p160
+I1
+sS'Ravichandran Ashwin'
+p161
+I2
+sS'Piyush Chawla'
+p162
+I6
+sS'Praveen Kumar'
+p163
+I6
+sS'Zaheer Khan'
+p164
+I3
+ssS'batmap'
+p165
+(dp166
+S'Lokesh Rahul'
+p167
+I7
+sS'Sanju Samson'
+p168
+I4
+sS'Quinton de Kock'
+p169
+I2
+sS'Jean-Paul Duminy'
+p170
+I6
+sS'Rajat Bhatia'
+p171
+I7
+sS'Chris Morris'
+p172
+I3
+sS'Morne Morkel'
+p173
+I1
+sS'Azhar Mahmood'
+p174
+I2
+sS'Sarfaraz Khan'
+p175
+I1
+sS'Manish Pandey'
+p176
+I2
+sS'Mitchell Starc'
+p177
+I1
+sS'Virender Sehwag'
+p178
+I2
+sS'Yuzvendra Chahal'
+p179
+I1
+sS'Ravindra Jadeja'
+p180
+I4
+sS'Shaun Marsh'
+p181
+I0
+sS'Kieron Pollard'
+p182
+I6
+sS'Harshal Patel'
+p183
+I1
+sS'Glenn Maxwell'
+p184
+I4
+sS'Parvinder Awana'
+p185
+I1
+sS'Lasith Malinga'
+p186
+I3
+sS'Amit Mishra'
+p187
+I3
+sS'Mitchell Johnson'
+p188
+I1
+sS'George Bailey'
+p189
+I4
+sS'Rohit Sharma'
+p190
+I6
+sS'Aiden Blizzard'
+p191
+I4
+sS'Samuel Badree'
+p192
+I1
+sS'S Badrinath'
+p193
+I4
+sS'MS Dhoni'
+p194
+I0
+sS'Faf du Plessis'
+p195
+I2
+sS'Angelo Mathews'
+p196
+I4
+sS'Corey Anderson'
+p197
+I7
+sS'Ankit Sharma'
+p198
+I1
+sS'Yuvraj Singh'
+p199
+I2
+sS'Imran Tahir'
+p200
+I1
+sS'Harbhajan Singh'
+p201
+I7
+sS'Stuart Binny'
+p202
+I7
+sS'Pragyan Ojha'
+p203
+I1
+sS'Albie Morkel'
+p204
+I2
+sS'Bhuvneshwar Kumar'
+p205
+I1
+sS'Virat Kohli'
+p206
+I6
+sS'Johan Botha'
+p207
+I4
+sS'Ashish Nehra'
+p208
+I1
+sS'Steven Smith'
+p209
+I4
+sS'Manoj Tiwary'
+p210
+I4
+sS'Pawan Negi'
+p211
+I3
+sS'Dale Steyn'
+p212
+I1
+sS'Eoin Morgan'
+p213
+I0
+sS'Suresh Raina'
+p214
+I6
+sS'Shikhar Dhawan'
+p215
+I0
+sS'Naman Ojha'
+p216
+I4
+sS'Ben Cutting'
+p217
+I3
+sS'Unmukt Chand'
+p218
+I7
+sS'Gautam Gambhir'
+p219
+I6
+sS'Chris Gayle'
+p220
+I5
+sS'Andre Russell'
+p221
+I4
+sS'Brad Hogg'
+p222
+I3
+sS'AB de Villiers'
+p223
+I0
+sS'Kane Williamson'
+p224
+I4
+sS'Parthiv Patel'
+p225
+I2
+sS'Ben Hilfenhaus'
+p226
+I1
+sS'Kyle Abbott'
+p227
+I1
+sS'Shane Watson'
+p228
+I0
+sS'Dinesh Karthik'
+p229
+I2
+sS'Mayank Agarwal'
+p230
+I7
+sS'Dhawal Kulkarni'
+p231
+I1
+sS'Wriddhiman Saha'
+p232
+I4
+sS'Karanveer Singh'
+p233
+I1
+sS'Darren Sammy'
+p234
+I4
+sS'Brendon McCullum'
+p235
+I6
+sS'Anureet Singh'
+p236
+I1
+sS'Robin Uthappa'
+p237
+I0
+sS'James Faulkner'
+p238
+I7
+sS'David Warner'
+p239
+I6
+sS'Axar Patel'
+p240
+I3
+sS'Kuldeep Yadav'
+p241
+I1
+sS'Mohammed Shami'
+p242
+I1
+sS'Dwayne Bravo'
+p243
+I6
+sS'Varun Aaron'
+p244
+I1
+sS'Moises Henriques'
+p245
+I4
+sS'Kevin Pietersen'
+p246
+I0
+sS'Sunil Narine'
+p247
+I3
+sS'David Miller'
+p248
+I0
+sS'Ajinkya Rahane'
+p249
+I2
+sS'Jasprit Bumrah'
+p250
+I1
+sS'Ravichandran Ashwin'
+p251
+I3
+sS'Piyush Chawla'
+p252
+I7
+sS'Praveen Kumar'
+p253
+I3
+sS'Zaheer Khan'
+p254
+I1
+ss.
