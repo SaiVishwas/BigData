@@ -92,6 +92,10 @@ if __name__ == "__main__":
 	cluster_vs_cluster_stats = create_cluster_vs_cluster_stats(bowler_to_cluster_mapping)
 	#print cluster_vs_cluster_stats
 	#print (get_probability_of_run("Rohit Sharma" , "Sunil Narine" , 1 ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
-	print (simulate("Rohit Sharma" , "Sunil Narine" , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
-
+	#print (simulate("Rohit Sharma" , "Sunil Narine" , cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
+	a = dict()
+	a['batmap'] = batsman_to_cluster_mapping
+	a['bowlmap'] = bowler_to_cluster_mapping
+	a['clustervscluster'] = cluster_vs_cluster_stats
+	pickle.dump(a, open("../../phase4/mapping.bin", "wb"))
 
