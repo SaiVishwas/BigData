@@ -6,6 +6,7 @@ class Batsmen:
         self.name = name
         self.id = int(id)
         self.out_prob = out_prob
+        self.tot_prob = 1
         self.runs = 0
         self.balls = 0
         
@@ -19,10 +20,10 @@ class Batsmen:
         self.runs += x
         
     def is_out(self):
-        return self.out_prob < 0.5
+        return self.tot_prob < 0.5
             
     def update_prob(self):
-        self.out_prob *= self.out_prob
+        self.tot_prob *= self.out_prob
         
     def increment_balls(self):
         self.balls += 1
@@ -117,7 +118,8 @@ def simulate_first_inning(bat_map, bowl_map, cluster_map, batting, bowling):
     print("Batting : "+batting+", Bowling : "+bowling)
     print("*"*60)
     batsmens = open("teams/"+batting+"/batting_order").readlines()
-    batsmens = [Batsmen(x.strip(), bat_map[x.strip()], 0.99) for x in batsmens]
+    wickets_prob = [random.uniform(0.90, 0.96)-x*0.01 for x in range(len(batsmens))]
+    batsmens = [Batsmen(batsmens[x].strip(), bat_map[batsmens[x].strip()], wickets_prob[x]) for x in range(len(batsmens))]
     bowlers = open("teams/"+bowling+"/bowling_order").readlines()
     bowlers = [Bowler(x.strip(), bowl_map[x.strip()]) for x in bowlers]
     wickets, overs, score = 0, 0, 0
@@ -186,7 +188,8 @@ def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, tar
     print("Batting : "+batting+", Bowling : "+bowling)
     print("*"*60)
     batsmens = open("teams/"+batting+"/batting_order").readlines()
-    batsmens = [Batsmen(x.strip(), bat_map[x.strip()], 0.99) for x in batsmens]
+    wickets_prob = [random.uniform(0.90, 0.96)-x*0.01 for x in range(len(batsmens))]
+    batsmens = [Batsmen(batsmens[x].strip(), bat_map[batsmens[x].strip()], wickets_prob[x]) for x in range(len(batsmens))]
     bowlers = open("teams/"+bowling+"/bowling_order").readlines()
     bowlers = [Bowler(x.strip(), bowl_map[x.strip()]) for x in bowlers]
     wickets, overs, score = 0, 0, 0
@@ -194,10 +197,10 @@ def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, tar
     offstrike = batsmens.pop(0)
     otherbatsmens = [onstrike, offstrike]   
     otherbowlers = []
-    while wickets != 10 and overs != 20 and score < target:
+    while wickets != 10 and overs != 20 and score <= target:
         balls = 0
         currbowler = bowlers.pop(0)
-        while wickets != 10 and balls != 6 and score < target:
+        while wickets != 10 and balls != 6 and score <= target:
             onstrike.increment_balls()
             balls += 1
             if onstrike.is_out():
@@ -248,7 +251,7 @@ def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, tar
     for bowl in set(otherbowlers+bowlers+[currbowler]):
         print(bowl)
     print("*"*110)
-    return score
+    return [score, overs, wickets]
 
 if __name__ == "__main__":
     dump = pickle.load(open("mapping.bin", "rb"))
@@ -264,14 +267,14 @@ if __name__ == "__main__":
     print("*"*60)
     score1 = simulate_first_inning(batsmen_map, bowler_map,
             cluster_vs_cluster, teams[toss], teams[toss-1])
-    score2 = simulate_second_inning(batsmen_map, bowler_map,
+    score2, overs, wickets = simulate_second_inning(batsmen_map, bowler_map,
             cluster_vs_cluster, teams[toss-1], teams[toss], score1)
          
     print("*"*110)    
     if score1 > score2:
         print("Team : "+teams[toss]+", Wins by : "+str(score1-score2)+" runs.")
     elif score2 > score1:
-        print("Team : "+teams[toss-1]+", Wins by : "+str(score2-score1)+" runs.")
+        print("Team : "+teams[toss-1]+", Wins by : "+str(10-wickets)+" wickets.")
     else:
         print("Match Draw")
     print("*"*110)
