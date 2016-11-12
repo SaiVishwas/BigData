@@ -1,19 +1,4 @@
 Cluster number : 0
-Varun Aaron
-Harshal Patel
-Pawan Negi
-Suresh Raina
-Jean-Paul Duminy
-Mohammed Shami
-Yuvraj Singh
-Parvinder Awana
-Glenn Maxwell
-Axar Patel
-Stuart Binny
-Ben Cutting
-Cluster centers : [   21.96666667     7.62083333  1249.08333333]
-
-Cluster number : 1
 Chris Gayle
 Yuzvendra Chahal
 Mitchell Starc
@@ -27,30 +12,7 @@ Moises Henriques
 Bhuvneshwar Kumar
 Cluster centers : [   20.             7.51181818  1887.09090909]
 
-Cluster number : 2
-Ravichandran Ashwin
-Albie Morkel
-Azhar Mahmood
-Sunil Narine
-Harbhajan Singh
-Lasith Malinga
-Cluster centers : [   19.5            6.85        4547.83333333]
-
-Cluster number : 3
-Darren Sammy
-Samuel Badree
-Ravindra Jadeja
-Ashish Nehra
-Imran Tahir
-Zaheer Khan
-Brad Hogg
-Pragyan Ojha
-Rajat Bhatia
-James Faulkner
-Chris Morris
-Cluster centers : [   20.09090909     7.23181818  2764.45454545]
-
-Cluster number : 4
+Cluster number : 1
 S Badrinath
 AB de Villiers
 Dinesh Karthik
@@ -80,11 +42,16 @@ Naman Ojha
 Lokesh Rahul
 Cluster centers : [  3.86296296   5.23703704  35.2962963 ]
 
-Cluster number : 5
-Dwayne Bravo
-Cluster centers : [   18.1      8.08  6239.  ]
+Cluster number : 2
+Ravichandran Ashwin
+Albie Morkel
+Azhar Mahmood
+Sunil Narine
+Harbhajan Singh
+Lasith Malinga
+Cluster centers : [   19.5            6.85        4547.83333333]
 
-Cluster number : 6
+Cluster number : 3
 Amit Mishra
 Johan Botha
 Piyush Chawla
@@ -95,6 +62,39 @@ Shane Watson
 Praveen Kumar
 Dale Steyn
 Cluster centers : [   20.65555556     7.35        3663.55555556]
+
+Cluster number : 4
+Varun Aaron
+Harshal Patel
+Pawan Negi
+Suresh Raina
+Jean0Paul Duminy
+Mohammed Shami
+Yuvraj Singh
+Parvinder Awana
+Glenn Maxwell
+Axar Patel
+Stuart Binny
+Ben Cutting
+Cluster centers : [   21.96666667     7.62083333  1249.08333333]
+
+Cluster number : 5
+Dwayne Bravo
+Cluster centers : [   18.1      8.08  6239.  ]
+
+Cluster number : 6
+Darren Sammy
+Samuel Badree
+Ravindra Jadeja
+Ashish Nehra
+Imran Tahir
+Zaheer Khan
+Brad Hogg
+Pragyan Ojha
+Rajat Bhatia
+James Faulkner
+Chris Morris
+Cluster centers : [   20.09090909     7.23181818  2764.45454545]
 
 Cluster number : 7
 Virat Kohli 

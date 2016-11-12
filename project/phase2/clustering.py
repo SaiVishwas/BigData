@@ -17,7 +17,8 @@ def cluster(filename, k, indices):
         name = str(x[0])
         num = str(model.predict(x[1]))
         centers = str(' '.join('{:.3f}'.format(i) for i in cluster_centers[model.predict(x[1])]))
-        f.write(name+" : "+num+ " : "+centers+"\n")
+        #f.write(name+" : "+num+ " : "+centers+"\n")
+        f.write(name+","+num+"\n")
 
 if __name__ == "__main__":
   conf = SparkConf().setAppName("Spark Count")

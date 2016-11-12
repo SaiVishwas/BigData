@@ -8,194 +8,194 @@ tp2
 Rp3
 I0
 (lp4
-S'AB de Villiers'
-p5
-aS'MS Dhoni'
-p6
-aS'Shaun Marsh'
-p7
-aS'David Miller'
-p8
-aS'Robin Uthappa'
-p9
-aS'Shane Watson'
-p10
-aS'Shikhar Dhawan'
-p11
-aS'Eoin Morgan'
-p12
-aS'Kevin Pietersen'
-p13
-asI1
-(lp14
-S'Varun Aaron'
-p15
-aS'Yuzvendra Chahal'
-p16
-aS'Sarfaraz Khan'
-p17
-aS'Harshal Patel'
-p18
-aS'Mitchell Starc'
-p19
-aS'Kyle Abbott'
-p20
-aS'Samuel Badree'
-p21
-aS'Ashish Nehra'
-p22
-aS'Imran Tahir'
-p23
-aS'Zaheer Khan'
-p24
-aS'Mohammed Shami'
-p25
-aS'Anureet Singh'
-p26
-aS'Parvinder Awana'
-p27
-aS'Mitchell Johnson'
-p28
-aS'Karanveer Singh'
-p29
-aS'Kuldeep Yadav'
-p30
-aS'Morne Morkel'
-p31
-aS'Jasprit Bumrah'
-p32
-aS'Ben Hilfenhaus'
-p33
-aS'Pragyan Ojha'
-p34
-aS'Ankit Sharma'
-p35
-aS'Dhawal Kulkarni'
-p36
-aS'Bhuvneshwar Kumar'
-p37
-aS'Dale Steyn'
-p38
-asI2
-(lp39
 S'Dinesh Karthik'
-p40
+p5
 aS'Faf du Plessis'
-p41
+p6
 aS'Quinton de Kock'
-p42
+p7
 aS'Albie Morkel'
-p43
+p8
 aS'Yuvraj Singh'
-p44
+p9
+aS'David Miller'
+p10
 aS'Virender Sehwag'
-p45
+p11
 aS'Azhar Mahmood'
-p46
+p12
 aS'Manish Pandey'
-p47
+p13
 aS'Parthiv Patel'
-p48
+p14
 aS'Ajinkya Rahane'
-p49
-asI3
-(lp50
-S'Ravichandran Ashwin'
-p51
-aS'Pawan Negi'
-p52
-aS'Amit Mishra'
-p53
-aS'Axar Patel'
-p54
-aS'Brad Hogg'
-p55
-aS'Sunil Narine'
-p56
-aS'Lasith Malinga'
-p57
-aS'Ben Cutting'
-p58
-aS'Chris Morris'
-p59
-aS'Praveen Kumar'
-p60
-asI4
-(lp61
-S'S Badrinath'
-p62
-aS'Darren Sammy'
-p63
-aS'Ravindra Jadeja'
-p64
-aS'Angelo Mathews'
-p65
-aS'Manoj Tiwary'
-p66
-aS'George Bailey'
-p67
-aS'Glenn Maxwell'
-p68
-aS'Wriddhiman Saha'
-p69
-aS'Johan Botha'
-p70
-aS'Andre Russell'
-p71
-aS'Aiden Blizzard'
-p72
-aS'Sanju Samson'
-p73
-aS'Steven Smith'
-p74
-aS'Moises Henriques'
-p75
-aS'Naman Ojha'
-p76
-aS'Kane Williamson'
-p77
-asI5
-(lp78
-S'Chris Gayle'
-p79
-asI6
-(lp80
+p15
+aS'Eoin Morgan'
+p16
+aS'Kevin Pietersen'
+p17
+asI1
+(lp18
 S'Virat Kohli'
-p81
-aS'Dwayne Bravo'
-p82
+p19
 aS'Brendon McCullum'
-p83
+p20
 aS'Suresh Raina'
-p84
-aS'Jean-Paul Duminy'
-p85
+p21
 aS'Gautam Gambhir'
-p86
+p22
 aS'Rohit Sharma'
-p87
-aS'Kieron Pollard'
-p88
+p23
 aS'David Warner'
-p89
-asI7
-(lp90
+p24
+asI2
+(lp25
+S'Ravichandran Ashwin'
+p26
+aS'Pawan Negi'
+p27
+aS'Amit Mishra'
+p28
+aS'Axar Patel'
+p29
+aS'Brad Hogg'
+p30
+aS'Sunil Narine'
+p31
+aS'Lasith Malinga'
+p32
+aS'Ben Cutting'
+p33
+aS'Chris Morris'
+p34
+aS'Praveen Kumar'
+p35
+asI3
+(lp36
+S'S Badrinath'
+p37
+aS'Darren Sammy'
+p38
+aS'Ravindra Jadeja'
+p39
+aS'Angelo Mathews'
+p40
+aS'Manoj Tiwary'
+p41
+aS'George Bailey'
+p42
+aS'Glenn Maxwell'
+p43
+aS'Wriddhiman Saha'
+p44
+aS'Johan Botha'
+p45
+aS'Andre Russell'
+p46
+aS'Aiden Blizzard'
+p47
+aS'Sanju Samson'
+p48
+aS'Steven Smith'
+p49
+aS'Moises Henriques'
+p50
+aS'Naman Ojha'
+p51
+aS'Kane Williamson'
+p52
+asI4
+(lp53
 S'Mayank Agarwal'
-p91
+p54
 aS'Piyush Chawla'
-p92
+p55
 aS'Corey Anderson'
-p93
+p56
 aS'Unmukt Chand'
-p94
+p57
 aS'Harbhajan Singh'
-p95
+p58
 aS'Stuart Binny'
-p96
+p59
 aS'Rajat Bhatia'
-p97
+p60
 aS'James Faulkner'
-p98
+p61
 aS'Lokesh Rahul'
+p62
+asI5
+(lp63
+S'AB de Villiers'
+p64
+aS'MS Dhoni'
+p65
+aS'Dwayne Bravo'
+p66
+aS'Jean-Paul Duminy'
+p67
+aS'Shaun Marsh'
+p68
+aS'Robin Uthappa'
+p69
+aS'Kieron Pollard'
+p70
+aS'Shane Watson'
+p71
+aS'Shikhar Dhawan'
+p72
+asI6
+(lp73
+S'Chris Gayle'
+p74
+asI7
+(lp75
+S'Varun Aaron'
+p76
+aS'Yuzvendra Chahal'
+p77
+aS'Sarfaraz Khan'
+p78
+aS'Harshal Patel'
+p79
+aS'Mitchell Starc'
+p80
+aS'Kyle Abbott'
+p81
+aS'Samuel Badree'
+p82
+aS'Ashish Nehra'
+p83
+aS'Imran Tahir'
+p84
+aS'Zaheer Khan'
+p85
+aS'Mohammed Shami'
+p86
+aS'Anureet Singh'
+p87
+aS'Parvinder Awana'
+p88
+aS'Mitchell Johnson'
+p89
+aS'Karanveer Singh'
+p90
+aS'Kuldeep Yadav'
+p91
+aS'Morne Morkel'
+p92
+aS'Jasprit Bumrah'
+p93
+aS'Ben Hilfenhaus'
+p94
+aS'Pragyan Ojha'
+p95
+aS'Ankit Sharma'
+p96
+aS'Dhawal Kulkarni'
+p97
+aS'Bhuvneshwar Kumar'
+p98
+aS'Dale Steyn'
 p99
 as.

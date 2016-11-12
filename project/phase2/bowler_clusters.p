@@ -8,171 +8,171 @@ tp2
 Rp3
 I0
 (lp4
-S'Varun Aaron'
-p5
-aS'Harshal Patel'
-p6
-aS'Pawan Negi'
-p7
-aS'Suresh Raina'
-p8
-aS'Jean0Paul Duminy'
-p9
-aS'Mohammed Shami'
-p10
-aS'Yuvraj Singh'
-p11
-aS'Parvinder Awana'
-p12
-aS'Glenn Maxwell'
-p13
-aS'Axar Patel'
-p14
-aS'Stuart Binny'
-p15
-aS'Ben Cutting'
-p16
-asI1
-(lp17
 S'Chris Gayle'
-p18
+p5
 aS'Yuzvendra Chahal'
-p19
+p6
 aS'Mitchell Starc'
-p20
+p7
 aS'Kyle Abbott'
-p21
+p8
 aS'Angelo Mathews'
-p22
+p9
 aS'Mitchell Johnson'
-p23
+p10
 aS'Jasprit Bumrah'
-p24
+p11
 aS'Ben Hilfenhaus'
-p25
+p12
 aS'Dhawal Kulkarni'
-p26
+p13
 aS'Moises Henriques'
-p27
+p14
 aS'Bhuvneshwar Kumar'
-p28
-asI2
-(lp29
-S'Ravichandran Ashwin'
-p30
-aS'Albie Morkel'
-p31
-aS'Azhar Mahmood'
-p32
-aS'Sunil Narine'
-p33
-aS'Harbhajan Singh'
-p34
-aS'Lasith Malinga'
-p35
-asI3
-(lp36
-S'Darren Sammy'
-p37
-aS'Samuel Badree'
-p38
-aS'Ravindra Jadeja'
-p39
-aS'Ashish Nehra'
-p40
-aS'Imran Tahir'
-p41
-aS'Zaheer Khan'
-p42
-aS'Brad Hogg'
-p43
-aS'Pragyan Ojha'
-p44
-aS'Rajat Bhatia'
-p45
-aS'James Faulkner'
-p46
-aS'Chris Morris'
-p47
-asI4
-(lp48
+p15
+asI1
+(lp16
 S'S Badrinath'
-p49
+p17
 aS'AB de Villiers'
-p50
+p18
 aS'Dinesh Karthik'
-p51
+p19
 aS'Sarfaraz Khan'
-p52
+p20
 aS'MS Dhoni'
-p53
+p21
 aS'Brendon McCullum'
-p54
+p22
 aS'Mayank Agarwal'
-p55
+p23
 aS'Quinton de Kock'
-p56
+p24
 aS'Manoj Tiwary'
-p57
+p25
 aS'George Bailey'
-p58
+p26
 aS'Karanveer Singh'
-p59
+p27
 aS'Shaun Marsh'
-p60
+p28
 aS'David Miller'
-p61
+p29
 aS'Wriddhiman Saha'
-p62
+p30
 aS'Gautam Gambhir'
-p63
+p31
 aS'Manish Pandey'
-p64
+p32
 aS'Robin Uthappa'
-p65
+p33
 aS'Aiden Blizzard'
-p66
+p34
 aS'Unmukt Chand'
-p67
+p35
 aS'Parthiv Patel'
-p68
+p36
 aS'Ajinkya Rahane'
-p69
+p37
 aS'Sanju Samson'
-p70
+p38
 aS'David Warner'
-p71
+p39
 aS'Shikhar Dhawan'
-p72
+p40
 aS'Eoin Morgan'
-p73
+p41
 aS'Naman Ojha'
-p74
+p42
 aS'Lokesh Rahul'
-p75
-asI5
-(lp76
-S'Dwayne Bravo'
-p77
-asI6
-(lp78
+p43
+asI2
+(lp44
+S'Ravichandran Ashwin'
+p45
+aS'Albie Morkel'
+p46
+aS'Azhar Mahmood'
+p47
+aS'Sunil Narine'
+p48
+aS'Harbhajan Singh'
+p49
+aS'Lasith Malinga'
+p50
+asI3
+(lp51
 S'Amit Mishra'
-p79
+p52
 aS'Johan Botha'
-p80
+p53
 aS'Piyush Chawla'
-p81
+p54
 aS'Morne Morkel'
-p82
+p55
 aS'Andre Russell'
-p83
+p56
 aS'Kieron Pollard'
-p84
+p57
 aS'Shane Watson'
-p85
+p58
 aS'Praveen Kumar'
-p86
+p59
 aS'Dale Steyn'
+p60
+asI4
+(lp61
+S'Varun Aaron'
+p62
+aS'Harshal Patel'
+p63
+aS'Pawan Negi'
+p64
+aS'Suresh Raina'
+p65
+aS'Jean0Paul Duminy'
+p66
+aS'Mohammed Shami'
+p67
+aS'Yuvraj Singh'
+p68
+aS'Parvinder Awana'
+p69
+aS'Glenn Maxwell'
+p70
+aS'Axar Patel'
+p71
+aS'Stuart Binny'
+p72
+aS'Ben Cutting'
+p73
+asI5
+(lp74
+S'Dwayne Bravo'
+p75
+asI6
+(lp76
+S'Darren Sammy'
+p77
+aS'Samuel Badree'
+p78
+aS'Ravindra Jadeja'
+p79
+aS'Ashish Nehra'
+p80
+aS'Imran Tahir'
+p81
+aS'Zaheer Khan'
+p82
+aS'Brad Hogg'
+p83
+aS'Pragyan Ojha'
+p84
+aS'Rajat Bhatia'
+p85
+aS'James Faulkner'
+p86
+aS'Chris Morris'
 p87
 asI7
 (lp88
