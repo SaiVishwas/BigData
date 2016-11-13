@@ -1,0 +1,205 @@
+Enter Team 1 : Enter Team 2 : ************************************************************
+Toss won by  MI , Chooses to Bat First!
+************************************************************
+************************************************************
+Batting : MI, Bowling : RCB
+************************************************************
+Darren Sammy to Parthiv Patel, Run scored : 1, Overs :0.1, 1/0
+Darren Sammy to Rohit Sharma, Run scored : 1, Overs :0.2, 2/0
+Darren Sammy to Parthiv Patel, Run scored : 0, Overs :0.3, 2/0
+Darren Sammy to Parthiv Patel, Run scored : 0, Overs :0.4, 2/0
+Darren Sammy to Parthiv Patel, Run scored : 0, Overs :0.5, 2/0
+Darren Sammy to Parthiv Patel, Run scored : 1, Overs :0.6, 3/0
+************************************************************
+Varun Aaron to Parthiv Patel, Run scored : 0, Overs :1.1, 3/0
+Varun Aaron to Parthiv Patel, Run scored : 0, Overs :1.2, 3/0
+Varun Aaron to Parthiv Patel, Run scored : 0, Overs :1.3, 3/0
+Varun Aaron to Aiden Blizzard, Run scored : 4, Overs :1.5, 7/1
+Varun Aaron to Aiden Blizzard, Run scored : 6, Overs :1.6, 13/1
+************************************************************
+Mitchell Starc to Rohit Sharma, Run scored : 2, Overs :2.1, 15/1
+Mitchell Starc to Rohit Sharma, Run scored : 1, Overs :2.2, 16/1
+Mitchell Starc to Aiden Blizzard, Run scored : 2, Overs :2.3, 18/1
+Mitchell Starc to Aiden Blizzard, Run scored : 0, Overs :2.4, 18/1
+Mitchell Starc to Aiden Blizzard, Run scored : 0, Overs :2.5, 18/1
+Mitchell Starc to Aiden Blizzard, Run scored : 1, Overs :2.6, 19/1
+************************************************************
+Harshal Patel to Kieron Pollard, Run scored : 1, Overs :3.2, 20/2
+Harshal Patel to Rohit Sharma, Run scored : 0, Overs :3.3, 20/2
+Harshal Patel to Rohit Sharma, Run scored : 1, Overs :3.4, 21/2
+Harshal Patel to Kieron Pollard, Run scored : 2, Overs :3.5, 23/2
+Harshal Patel to Kieron Pollard, Run scored : 1, Overs :3.6, 24/2
+************************************************************
+Varun Aaron to Kieron Pollard, Run scored : 0, Overs :4.1, 24/2
+Varun Aaron to Kieron Pollard, Run scored : 1, Overs :4.2, 25/2
+Varun Aaron to Rohit Sharma, Run scored : 0, Overs :4.3, 25/2
+Varun Aaron to Rohit Sharma, Run scored : 4, Overs :4.4, 29/2
+Varun Aaron to Rohit Sharma, Run scored : 0, Overs :4.5, 29/2
+Varun Aaron to Rohit Sharma, Run scored : 0, Overs :4.6, 29/2
+************************************************************
+Darren Sammy to Kieron Pollard, Run scored : 6, Overs :5.1, 35/2
+Darren Sammy to Unmukt Chand, Run scored : 1, Overs :5.3, 36/3
+Darren Sammy to Rohit Sharma, Run scored : 0, Overs :5.4, 36/3
+Darren Sammy to Corey Anderson, Run scored : 0, Overs :5.6, 36/4
+************************************************************
+Yuzvendra Chahal to Unmukt Chand, Run scored : 0, Overs :6.1, 36/4
+Yuzvendra Chahal to Unmukt Chand, Run scored : 1, Overs :6.2, 37/4
+Yuzvendra Chahal to Corey Anderson, Run scored : 1, Overs :6.3, 38/4
+Yuzvendra Chahal to Unmukt Chand, Run scored : 1, Overs :6.4, 39/4
+Yuzvendra Chahal to Corey Anderson, Run scored : 1, Overs :6.5, 40/4
+Yuzvendra Chahal to Unmukt Chand, Run scored : 0, Overs :6.6, 40/4
+************************************************************
+Darren Sammy to Corey Anderson, Run scored : 0, Overs :7.1, 40/4
+Darren Sammy to Corey Anderson, Run scored : 0, Overs :7.2, 40/4
+Darren Sammy to Harbhajan Singh, Run scored : 0, Overs :7.4, 40/5
+Darren Sammy to Harbhajan Singh, Run scored : 0, Overs :7.5, 40/5
+Darren Sammy to Harbhajan Singh, Run scored : 6, Overs :7.6, 46/5
+************************************************************
+Harshal Patel to Ben Hilfenhaus, Run scored : 1, Overs :8.2, 47/6
+Harshal Patel to Harbhajan Singh, Run scored : 1, Overs :8.3, 48/6
+Harshal Patel to Ben Hilfenhaus, Run scored : 1, Overs :8.4, 49/6
+Harshal Patel to Harbhajan Singh, Run scored : 6, Overs :8.5, 55/6
+************************************************************
+Varun Aaron to Ben Hilfenhaus, Run scored : 2, Overs :9.1, 57/7
+Varun Aaron to Ben Hilfenhaus, Run scored : 1, Overs :9.2, 58/7
+Varun Aaron to Lasith Malinga, Run scored : 1, Overs :9.3, 59/7
+Varun Aaron to Pragyan Ojha, Run scored : 1, Overs :9.5, 60/8
+Varun Aaron to Lasith Malinga, Run scored : 0, Overs :9.6, 60/8
+************************************************************
+Darren Sammy to Pragyan Ojha, Run scored : 0, Overs :10.1, 60/8
+Darren Sammy to Pragyan Ojha, Run scored : 1, Overs :10.2, 61/8
+Darren Sammy to Lasith Malinga, Run scored : 1, Overs :10.3, 62/8
+Darren Sammy to Pragyan Ojha, Run scored : 1, Overs :10.4, 63/8
+Darren Sammy to Lasith Malinga, Run scored : 2, Overs :10.5, 65/8
+Darren Sammy to Lasith Malinga, Run scored : 1, Overs :10.6, 66/8
+************************************************************
+Mitchell Starc to Jasprit Bumrah, Run scored : 0, Overs :11.2, 66/9
+Mitchell Starc to Jasprit Bumrah, Run scored : 1, Overs :11.3, 67/9
+
+************************************************************
+Innings Scoreboard
+Batting
+Name                                              Runs Balls
+Parthiv Patel                                       2 (9)
+Rohit Sharma                                        9 (11)
+Aiden Blizzard                                     13 (7)
+Kieron Pollard                                     11 (7)
+Unmukt Chand                                        3 (6)
+Corey Anderson                                      2 (6)
+Harbhajan Singh                                    13 (6)
+Ben Hilfenhaus                                      5 (5)
+Lasith Malinga                                      5 (6)
+Pragyan Ojha                                        3 (5)
+Jasprit Bumrah                                      1 (2)
+**************************************************************************************************************
+Bowling
+Name                          Overs               Wickets             Runs                Econ                
+Mitchell Starc                1.4                 2                   7                   4.20                
+Varun Aaron                   3                   2                   20                  6.67                
+Harshal Patel                 2                   3                   14                  7.00                
+Darren Sammy                  4                   3                   22                  5.50                
+Yuzvendra Chahal              1                   0                   4                   4.00                
+**************************************************************************************************************
+************************************************************
+Chasing Target of 67 runs.
+Batting : RCB, Bowling : MI
+************************************************************
+Kieron Pollard to Virat Kohli, Run scored : 0, Overs :0.1, 0/0
+Kieron Pollard to Virat Kohli, Run scored : 0, Overs :0.2, 0/0
+Kieron Pollard to Virat Kohli, Run scored : 2, Overs :0.3, 2/0
+Kieron Pollard to Virat Kohli, Run scored : 0, Overs :0.4, 2/0
+Kieron Pollard to Virat Kohli, Run scored : 2, Overs :0.5, 4/0
+Kieron Pollard to Virat Kohli, Run scored : 2, Overs :0.6, 6/0
+************************************************************
+Pragyan Ojha to Chris Gayle, Run scored : 0, Overs :1.1, 6/0
+Pragyan Ojha to Chris Gayle, Run scored : 1, Overs :1.2, 7/0
+Pragyan Ojha to Virat Kohli, Run scored : 0, Overs :1.3, 7/0
+Pragyan Ojha to Virat Kohli, Run scored : 0, Overs :1.4, 7/0
+Pragyan Ojha to Virat Kohli, Run scored : 0, Overs :1.5, 7/0
+************************************************************
+Jasprit Bumrah to Chris Gayle, Run scored : 0, Overs :2.1, 7/1
+Jasprit Bumrah to Chris Gayle, Run scored : 6, Overs :2.2, 13/1
+Jasprit Bumrah to Chris Gayle, Run scored : 0, Overs :2.3, 13/1
+Jasprit Bumrah to Chris Gayle, Run scored : 1, Overs :2.4, 14/1
+Jasprit Bumrah to AB de Villiers, Run scored : 6, Overs :2.5, 20/1
+Jasprit Bumrah to AB de Villiers, Run scored : 0, Overs :2.6, 20/1
+************************************************************
+Corey Anderson to Chris Gayle, Run scored : 1, Overs :3.1, 21/1
+Corey Anderson to AB de Villiers, Run scored : 4, Overs :3.2, 25/1
+Corey Anderson to AB de Villiers, Run scored : 1, Overs :3.3, 26/1
+Corey Anderson to Chris Gayle, Run scored : 1, Overs :3.4, 27/1
+Corey Anderson to AB de Villiers, Run scored : 1, Overs :3.5, 28/1
+Corey Anderson to Chris Gayle, Run scored : 0, Overs :3.6, 28/1
+************************************************************
+Lasith Malinga to AB de Villiers, Run scored : 2, Overs :4.1, 30/1
+Lasith Malinga to AB de Villiers, Run scored : 1, Overs :4.2, 31/1
+Lasith Malinga to Dinesh Karthik, Run scored : 6, Overs :4.4, 37/2
+Lasith Malinga to Dinesh Karthik, Run scored : 1, Overs :4.5, 38/2
+Lasith Malinga to AB de Villiers, Run scored : 0, Overs :4.6, 38/2
+************************************************************
+Jasprit Bumrah to Dinesh Karthik, Run scored : 0, Overs :5.1, 38/2
+Jasprit Bumrah to Dinesh Karthik, Run scored : 2, Overs :5.2, 40/2
+Jasprit Bumrah to Dinesh Karthik, Run scored : 4, Overs :5.3, 44/2
+Jasprit Bumrah to Dinesh Karthik, Run scored : 1, Overs :5.4, 45/2
+Jasprit Bumrah to S Badrinath, Run scored : 1, Overs :5.6, 46/3
+************************************************************
+Ben Hilfenhaus to S Badrinath, Run scored : 4, Overs :6.1, 50/3
+Ben Hilfenhaus to S Badrinath, Run scored : 1, Overs :6.2, 51/3
+Ben Hilfenhaus to Sarfaraz Khan, Run scored : 0, Overs :6.4, 51/4
+Ben Hilfenhaus to Sarfaraz Khan, Run scored : 0, Overs :6.5, 51/4
+Ben Hilfenhaus to Sarfaraz Khan, Run scored : 1, Overs :6.6, 52/4
+************************************************************
+Lasith Malinga to Sarfaraz Khan, Run scored : 0, Overs :7.1, 52/4
+Lasith Malinga to Sarfaraz Khan, Run scored : 0, Overs :7.2, 52/4
+Lasith Malinga to Sarfaraz Khan, Run scored : 1, Overs :7.3, 53/4
+Lasith Malinga to S Badrinath, Run scored : 0, Overs :7.4, 53/4
+Lasith Malinga to S Badrinath, Run scored : 0, Overs :7.5, 53/4
+Lasith Malinga to S Badrinath, Run scored : 0, Overs :7.6, 53/4
+************************************************************
+Pragyan Ojha to Sarfaraz Khan, Run scored : 0, Overs :8.1, 53/4
+Pragyan Ojha to Darren Sammy, Run scored : 6, Overs :8.3, 59/5
+Pragyan Ojha to Darren Sammy, Run scored : 0, Overs :8.4, 59/5
+Pragyan Ojha to Darren Sammy, Run scored : 0, Overs :8.5, 59/5
+Pragyan Ojha to Darren Sammy, Run scored : 1, Overs :8.6, 60/5
+************************************************************
+Jasprit Bumrah to Darren Sammy, Run scored : 0, Overs :9.1, 60/5
+Jasprit Bumrah to Varun Aaron, Run scored : 0, Overs :9.3, 60/6
+Jasprit Bumrah to Varun Aaron, Run scored : 0, Overs :9.4, 60/6
+Jasprit Bumrah to Varun Aaron, Run scored : 0, Overs :9.5, 60/6
+Jasprit Bumrah to Varun Aaron, Run scored : 1, Overs :9.6, 61/6
+************************************************************
+Ben Hilfenhaus to Varun Aaron, Run scored : 4, Overs :10.1, 65/6
+Ben Hilfenhaus to Varun Aaron, Run scored : 1, Overs :10.2, 66/6
+Ben Hilfenhaus to S Badrinath, Run scored : 0, Overs :10.3, 66/6
+Ben Hilfenhaus to S Badrinath, Run scored : 1, Overs :10.4, 67/6
+Ben Hilfenhaus to Yuzvendra Chahal, Run scored : 0, Overs :10.6, 67/7
+
+************************************************************
+Innings Scoreboard
+Batting
+Name                                              Runs Balls
+Virat Kohli                                         6 (10)
+Chris Gayle                                        10 (10)
+AB de Villiers                                     15 (9)
+Dinesh Karthik                                     14 (7)
+S Badrinath                                         7 (8)
+Sarfaraz Khan                                       2 (8)
+Darren Sammy                                        7 (6)
+Varun Aaron                                         6 (7)
+Yuzvendra Chahal                                    0 (1)
+Harshal Patel                                       0 (0)
+Mitchell Starc                                      0 (0)
+**************************************************************************************************************
+Bowling
+Name                          Overs               Wickets             Runs                Econ                
+Corey Anderson                1                   0                   8                   8.00                
+Pragyan Ojha                  2                   2                   8                   4.00                
+Jasprit Bumrah                3                   2                   22                  7.33                
+Lasith Malinga                2                   1                   11                  5.50                
+Harbhajan Singh               0                   0                   0                   -                   
+Kieron Pollard                1                   0                   6                   6.00                
+Ben Hilfenhaus                1                   2                   12                  12.00               
+**************************************************************************************************************
+**************************************************************************************************************
+Match Draw
+**************************************************************************************************************

@@ -147,10 +147,10 @@ def simulate_first_inning(bat_map, bowl_map, cluster_map, batting, bowling):
                 onstrike.update_prob()
                 currbowler.add_runs(run)
                 score += run
+                print(currbowler.get_name()+" to "+onstrike.get_name()+", Run scored : "+str(run)+", Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
                 if run in [1, 3, 5, 7]:
                     onstrike, offstrike = offstrike, onstrike
                     
-            print("Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
         
         if balls == 6:
             currbowler.increment_overs()
@@ -201,6 +201,7 @@ def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, tar
         balls = 0
         currbowler = bowlers.pop(0)
         while wickets != 10 and balls != 6 and score <= target:
+            run = "Wicket"
             onstrike.increment_balls()
             balls += 1
             if onstrike.is_out():
@@ -217,10 +218,13 @@ def simulate_second_inning(bat_map, bowl_map, cluster_map, batting, bowling, tar
                 onstrike.update_prob()
                 currbowler.add_runs(run)
                 score += run
+                #print(run)
+                #print(onstrike.get_name()+":"+offstrike.get_name())
+                print(currbowler.get_name()+" to "+onstrike.get_name()+", Run scored : "+str(run)+", Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
                 if run in [1, 3, 5, 7]:
                     onstrike, offstrike = offstrike, onstrike
-                
-            print("Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
+                #print(onstrike.get_name()+":"+offstrike.get_name())
+            
         
         if score >= target:
             break
@@ -258,6 +262,8 @@ if __name__ == "__main__":
     bowler_map = dump['bowlmap']
     batsmen_map = dump['batmap']
     cluster_vs_cluster = dump['clustervscluster']
+    print(cluster_vs_cluster)
+    '''
     team1 = input("Enter Team 1 : ")
     team2 = input("Enter Team 2 : ")
     teams = [team1, team2]
@@ -278,3 +284,4 @@ if __name__ == "__main__":
     else:
         print("Match Draw")
     print("*"*110)
+    '''
