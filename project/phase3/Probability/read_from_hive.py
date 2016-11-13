@@ -31,6 +31,7 @@ print df_openings_latest
 '''
 
 
+from collections import defaultdict
 
 from pyspark.sql import HiveContext
 from pyspark import SparkConf, SparkContext
@@ -39,16 +40,28 @@ sqlContext = HiveContext(sc)
 
 #sqlContext.sql(" create table if not exists batsman2 (name string , cluster int)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
 #sqlContext.sql("LOAD DATA LOCAL INPATH '/home/hadoop/BigData/project/phase2/output/batsmen' INTO TABLE batsman2")
-a = sqlContext.sql("select * from batsman2")
+sqlContext.sql("use ipl")
+a = sqlContext.sql("select * from batsmen")
 #a = sqlContext.sql("select * from batsman2")
 #x = a.map(lambda p: p.name).collect()
 
-print(a.rdd.map(lambda p: str(p.name)).collect())
+x = a.rdd.map(lambda p: str(p.name) + "," + str(p.cluster)).collect()
+print x
+#print type(x)
+clusters = defaultdict(list)
+
+for i in x :
+	#print i
+	name = i.split(",")[0]
+	cluster = i.split(",")[1]
+	clusters[cluster].append(name)
+
+print clusters	
 
 #sqlContext.sql(" create table if not exists bowler2 (name string , cluster int)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
 #sqlContext.sql("LOAD DATA LOCAL INPATH '/home/hadoop/BigData/project/phase2/output/bowler' INTO TABLE bowler2")
-b = sqlContext.sql("select * from bowler2")
+b = sqlContext.sql("select * from bowler")
 
-print(str(b.collect()))
+#print(str(b.collect()))
 #y = b.map(lambda p: p.name).collect()
 #print b

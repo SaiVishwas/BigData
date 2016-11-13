@@ -8,7 +8,7 @@ def format_input(input_file , indices) :
   data = tokenized.map(lambda entry: ([float(entry.split(",")[indices[0]]),float(entry.split(",")[indices[1]]),float(entry.split(",")[indices[2]])]))
   return [stat, data]
 
-def cluster(filename , k, indices):
+def cluster(filename, k, indices):
   stat, data = format_input("input/"+filename, indices)
   model = KMeans.train(data, k)
   cluster_centers = model.clusterCenters

@@ -130,7 +130,7 @@ aS'Pawan Negi'
 p64
 aS'Suresh Raina'
 p65
-aS'Jean0Paul Duminy'
+aS'Jean-Paul Duminy'
 p66
 aS'Mohammed Shami'
 p67
@@ -176,7 +176,7 @@ aS'Chris Morris'
 p87
 asI7
 (lp88
-S'Virat Kohli '
+S'Virat Kohli'
 p89
 aS'Faf du Plessis'
 p90
