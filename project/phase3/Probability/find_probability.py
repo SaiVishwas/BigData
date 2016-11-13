@@ -1,5 +1,31 @@
 import pickle 
 import random
+from collections import defaultdict
+from pyspark import SparkContext, SparkConf
+from pyspark.sql import HiveContext
+
+sc = SparkContext()
+sqlContext = HiveContext(sc)
+
+def load_from_hive(filename):
+	sqlContext.sql("USE ipl")
+	query = sqlContext.sql("SELECT * FROM " + filename)
+	#a = sqlContext.sql("select * from batsman2")
+	#x = a.map(lambda p: p.name).collect()
+
+	rows = query.rdd.map(lambda p: str(p.name) + "," + str(p.cluster)).collect()
+	
+	clusters = defaultdict(list)
+
+	for i in rows :
+		#print i
+		name = i.split(",")[0]
+		cluster_number = int(i.split(",")[1])
+		clusters[cluster_number].append(name)
+
+	return clusters	
+
+
 def player_to_cluster_mapping(clusters_of_players)		:
 	player_to_cluster = dict()
 	for i,j in clusters_of_players.iteritems():
@@ -84,11 +110,15 @@ def predict_next(batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman_
 
 if __name__ == "__main__":
 	player_vs_player_stat = pickle.load( open( "playerVSplayer_stat.p", "rb" ) )
-	clusters_of_bat = pickle.load( open( "batsman_clusters.p", "rb" ) )
-	clusters_of_bowl = pickle.load( open( "bowler_clusters.p", "rb" ) )
+	#clusters_of_bat = pickle.load( open( "batsman_clusters.p", "rb" ) )
+	#clusters_of_bowl = pickle.load( open( "bowler_clusters.p", "rb" ) )
+
+	clusters_of_bat = load_from_hive("batsmen")
+	clusters_of_bowl = load_from_hive("bowler")
 
 	batsman_to_cluster_mapping = player_to_cluster_mapping(clusters_of_bat)
 	bowler_to_cluster_mapping = player_to_cluster_mapping(clusters_of_bowl)
+	#print bowler_to_cluster_mapping
 	cluster_vs_cluster_stats = create_cluster_vs_cluster_stats(bowler_to_cluster_mapping)
 	#print cluster_vs_cluster_stats
 	#print (get_probability_of_run("Rohit Sharma" , "Sunil Narine" , 1 ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
