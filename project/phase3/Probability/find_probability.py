@@ -39,7 +39,7 @@ def create_cluster_vs_cluster_stats(bowler_clusters) :
 
 	for bat_cluster_no , list_of_cluster_players in clusters_of_bat.iteritems():
 		for bowl_cluster_no in range(0,8):
-			tmp = [0 for i in range(10)]
+			tmp = [0 for i in range(11)]
 			for batsman_name in list_of_cluster_players:
 				if batsman_name in player_vs_player_stat :
 					bat_stat = player_vs_player_stat[batsman_name]
@@ -47,7 +47,7 @@ def create_cluster_vs_cluster_stats(bowler_clusters) :
 					for bowler_name , bowl_stat in bat_stat.iteritems():
 						#print bowl_stat
 						if bowler_clusters[bowler_name] == bowl_cluster_no :
-							for n in range(0,10):
+							for n in range(0,11):
 								tmp[n] = tmp[n] + bowl_stat[n]
 				
 			inter_cluster_stats[bat_cluster_no][bowl_cluster_no] = tmp
