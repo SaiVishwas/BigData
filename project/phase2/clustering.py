@@ -29,11 +29,13 @@ def dump_to_hive(batsmen_file, bowler_file):
 
   sqlContext.sql("CREATE TABLE IF NOT EXISTS batsmen (name string , cluster int)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
   sqlContext.sql("LOAD DATA LOCAL INPATH 'output/" + batsmen_file + "' INTO TABLE batsmen")
-  #sqlContext.sql("select * from batsmen").show()
+  #just print on screen for debugging
+  sqlContext.sql("select * from batsmen").show()
 
   sqlContext.sql("CREATE TABLE IF NOT EXISTS bowler (name string , cluster int)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
   sqlContext.sql("LOAD DATA LOCAL INPATH 'output/" + bowler_file + "' INTO TABLE bowler")
-  #sqlContext.sql("select * from bowler").show()    
+  #just print on screen for debugging
+  sqlContext.sql("select * from bowler").show()    
 
 if __name__ == "__main__":
   conf = SparkConf().setAppName("Spark Count")

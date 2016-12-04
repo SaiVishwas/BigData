@@ -32,6 +32,8 @@ for i,j in player_vs_player_stat.iteritems():
 	if i in list_of_players:
 		for k,v in j.iteritems():
 			if k in list_of_players:
+				if len(v) == 10:
+					v.append(0)
 				tmp[k] = v
 		valid_player_vs_player_stat[i] = tmp
 
