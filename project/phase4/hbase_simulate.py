@@ -173,7 +173,7 @@ def simulate_first_inning(batting, bowling):
     print("Batting : "+batting+", Bowling : "+bowling)
     print("*"*60)
     batsmens = open("teams/"+batting+"/batting_order").readlines()
-    wickets_prob = [random.uniform(0.90, 0.96)-x*0.01 for x in range(len(batsmens))]
+    wickets_prob = [random.uniform(0.98, 0.999) for x in range(len(batsmens))]
     batsmens = [Batsmen(batsmens[x].strip(), hbase.get_batsman_group(batsmens[x].strip()), wickets_prob[x]) for x in range(len(batsmens))]
     bowlers = open("teams/"+bowling+"/bowling_order").readlines()
     bowlers = [Bowler(x.strip(), hbase.get_bowler_group(x.strip())) for x in bowlers]
@@ -243,7 +243,7 @@ def simulate_second_inning(batting, bowling, target):
     print("Batting : "+batting+", Bowling : "+bowling)
     print("*"*60)
     batsmens = open("teams/"+batting+"/batting_order").readlines()
-    wickets_prob = [random.uniform(0.90, 0.96)-x*0.01 for x in range(len(batsmens))]
+    wickets_prob = [random.uniform(0.98, 0.999) for x in range(len(batsmens))]
     batsmens = [Batsmen(batsmens[x].strip(), hbase.get_batsman_group(batsmens[x].strip()), wickets_prob[x]) for x in range(len(batsmens))]
     bowlers = open("teams/"+bowling+"/bowling_order").readlines()
     bowlers = [Bowler(x.strip(), hbase.get_bowler_group(x.strip())) for x in bowlers]
