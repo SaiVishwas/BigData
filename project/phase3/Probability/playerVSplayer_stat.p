@@ -99,7 +99,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Harbhajan Singh'
 p17
 (lp18
@@ -113,7 +113,7 @@ aI0
 aI0
 aI6
 aI7
-aI0
+aI1
 asS'Yuvraj Singh'
 p19
 (lp20
@@ -155,7 +155,7 @@ aI0
 aI0
 aI4
 aI6
-aI0
+aI1
 asS'Jean-Paul Duminy'
 p25
 (lp26
@@ -186,7 +186,7 @@ aI1
 aI0
 aI6
 aI3
-aI0
+aI1
 assS'Ashish Nehra'
 p31
 (dp32
@@ -203,7 +203,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Brad Hogg'
 p35
 (lp36
@@ -262,7 +262,7 @@ aI4
 aI0
 aI50
 aI37
-aI0
+aI2
 asS'Karanveer Singh'
 p45
 (lp46
@@ -374,7 +374,7 @@ aI0
 aI0
 aI5
 aI7
-aI0
+aI1
 asS'Kieron Pollard'
 p61
 (lp62
@@ -402,7 +402,7 @@ aI0
 aI0
 aI31
 aI36
-aI0
+aI2
 asS'Moises Henriques'
 p65
 (lp66
@@ -416,7 +416,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI1
 asS'Albie Morkel'
 p67
 (lp68
@@ -472,7 +472,7 @@ aI0
 aI0
 aI4
 aI10
-aI0
+aI1
 asS'Lasith Malinga'
 p75
 (lp76
@@ -500,7 +500,7 @@ aI7
 aI0
 aI58
 aI23
-aI0
+aI2
 asS'Bhuvneshwar Kumar'
 p79
 (lp80
@@ -573,7 +573,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Stuart Binny'
 p91
 (lp92
@@ -601,7 +601,7 @@ aI0
 aI0
 aI6
 aI5
-aI0
+aI1
 asS'Chris Morris'
 p95
 (lp96
@@ -615,7 +615,7 @@ aI1
 aI0
 aI8
 aI3
-aI0
+aI1
 asS'Morne Morkel'
 p97
 (lp98
@@ -814,7 +814,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Moises Henriques'
 p127
 (lp128
@@ -926,7 +926,7 @@ aI0
 aI0
 aI5
 aI5
-aI0
+aI1
 asS'Piyush Chawla'
 p143
 (lp144
@@ -954,7 +954,7 @@ aI0
 aI0
 aI9
 aI6
-aI0
+aI1
 asS'Corey Anderson'
 p147
 (lp148
@@ -996,7 +996,7 @@ aI0
 aI0
 aI10
 aI6
-aI0
+aI1
 asS'Karanveer Singh'
 p153
 (lp154
@@ -1024,7 +1024,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p157
 (lp158
@@ -1066,7 +1066,7 @@ aI0
 aI0
 aI4
 aI8
-aI0
+aI1
 asS'Mitchell Johnson'
 p163
 (lp164
@@ -1080,7 +1080,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 assS'Manoj Tiwary'
 p165
 (dp166
@@ -1125,7 +1125,7 @@ aI1
 aI0
 aI16
 aI18
-aI0
+aI1
 asS'Sunil Narine'
 p173
 (lp174
@@ -1153,7 +1153,7 @@ aI0
 aI0
 aI18
 aI14
-aI0
+aI1
 assS'Dwayne Bravo'
 p177
 (dp178
@@ -1282,7 +1282,7 @@ aI0
 aI0
 aI12
 aI8
-aI0
+aI1
 asS'Shane Watson'
 p197
 (lp198
@@ -1352,7 +1352,7 @@ aI0
 aI0
 aI11
 aI11
-aI0
+aI1
 asS'Praveen Kumar'
 p207
 (lp208
@@ -1380,7 +1380,7 @@ aI0
 aI0
 aI6
 aI11
-aI0
+aI1
 assS'Pawan Negi'
 p211
 (dp212
@@ -1397,7 +1397,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p215
 (lp216
@@ -1453,7 +1453,7 @@ aI1
 aI0
 aI7
 aI4
-aI0
+aI1
 asS'Moises Henriques'
 p223
 (lp224
@@ -1481,7 +1481,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Mitchell Starc'
 p227
 (lp228
@@ -1495,7 +1495,7 @@ aI0
 aI0
 aI2
 aI3
-aI0
+aI1
 asS'Chris Morris'
 p229
 (lp230
@@ -1509,7 +1509,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Praveen Kumar'
 p231
 (lp232
@@ -1596,7 +1596,7 @@ aI1
 aI0
 aI6
 aI2
-aI0
+aI1
 asS'Axar Patel'
 p245
 (lp246
@@ -1655,7 +1655,7 @@ aI1
 aI0
 aI16
 aI11
-aI0
+aI1
 asS'Karanveer Singh'
 p255
 (lp256
@@ -1781,7 +1781,7 @@ aI1
 aI0
 aI13
 aI15
-aI0
+aI1
 asS'Imran Tahir'
 p273
 (lp274
@@ -1809,7 +1809,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI1
 asS'Harshal Patel'
 p277
 (lp278
@@ -1977,7 +1977,7 @@ aI0
 aI0
 aI3
 aI5
-aI0
+aI1
 asS'Praveen Kumar'
 p301
 (lp302
@@ -2005,7 +2005,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Shane Watson'
 p305
 (lp306
@@ -2050,7 +2050,7 @@ aI0
 aI0
 aI8
 aI6
-aI0
+aI1
 asS'Rajat Bhatia'
 p313
 (lp314
@@ -2190,7 +2190,7 @@ aI0
 aI0
 aI10
 aI14
-aI0
+aI1
 asS'Imran Tahir'
 p333
 (lp334
@@ -2260,7 +2260,7 @@ aI0
 aI0
 aI18
 aI12
-aI0
+aI1
 asS'Ankit Sharma'
 p343
 (lp344
@@ -2274,7 +2274,7 @@ aI0
 aI0
 aI14
 aI15
-aI0
+aI2
 asS'Brad Hogg'
 p345
 (lp346
@@ -2288,7 +2288,7 @@ aI0
 aI0
 aI13
 aI11
-aI0
+aI1
 asS'Chris Morris'
 p347
 (lp348
@@ -2316,7 +2316,7 @@ aI0
 aI0
 aI6
 aI14
-aI0
+aI2
 asS'Andre Russell'
 p351
 (lp352
@@ -2417,7 +2417,7 @@ aI0
 aI0
 aI5
 aI4
-aI0
+aI1
 asS'Anureet Singh'
 p367
 (lp368
@@ -2445,7 +2445,7 @@ aI0
 aI0
 aI2
 aI5
-aI0
+aI1
 asS'Moises Henriques'
 p371
 (lp372
@@ -2473,7 +2473,7 @@ aI2
 aI0
 aI17
 aI8
-aI0
+aI1
 asS'Pawan Negi'
 p375
 (lp376
@@ -2515,7 +2515,7 @@ aI2
 aI0
 aI22
 aI21
-aI0
+aI1
 asS'Angelo Mathews'
 p381
 (lp382
@@ -2543,7 +2543,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI1
 asS'Praveen Kumar'
 p385
 (lp386
@@ -2588,7 +2588,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Kieron Pollard'
 p393
 (lp394
@@ -2633,7 +2633,7 @@ aI0
 aI0
 aI3
 aI5
-aI0
+aI1
 asS'Dwayne Bravo'
 p401
 (lp402
@@ -2860,7 +2860,7 @@ aI1
 aI0
 aI9
 aI5
-aI0
+aI1
 asS'Shane Watson'
 p435
 (lp436
@@ -2874,7 +2874,7 @@ aI2
 aI0
 aI21
 aI8
-aI0
+aI1
 asS'Amit Mishra'
 p437
 (lp438
@@ -2902,7 +2902,7 @@ aI0
 aI0
 aI8
 aI9
-aI0
+aI2
 asS'Zaheer Khan'
 p441
 (lp442
@@ -2961,7 +2961,7 @@ aI0
 aI0
 aI4
 aI3
-aI0
+aI1
 asS'Piyush Chawla'
 p451
 (lp452
@@ -3017,7 +3017,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Harshal Patel'
 p459
 (lp460
@@ -3143,7 +3143,7 @@ aI0
 aI0
 aI7
 aI14
-aI0
+aI1
 asS'Praveen Kumar'
 p477
 (lp478
@@ -3272,7 +3272,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Praveen Kumar'
 p497
 (lp498
@@ -3429,7 +3429,7 @@ aI1
 aI0
 aI21
 aI18
-aI0
+aI1
 asS'Mitchell Starc'
 p521
 (lp522
@@ -3569,7 +3569,7 @@ aI1
 aI0
 aI14
 aI13
-aI0
+aI2
 asS'Johan Botha'
 p541
 (lp542
@@ -3667,7 +3667,7 @@ aI0
 aI0
 aI3
 aI4
-aI0
+aI1
 asS'Praveen Kumar'
 p555
 (lp556
@@ -3726,7 +3726,7 @@ aI1
 aI0
 aI8
 aI9
-aI0
+aI1
 asS'Piyush Chawla'
 p565
 (lp566
@@ -3740,7 +3740,7 @@ aI0
 aI0
 aI4
 aI4
-aI0
+aI1
 asS'Chris Morris'
 p567
 (lp568
@@ -3796,7 +3796,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Harbhajan Singh'
 p575
 (lp576
@@ -3810,7 +3810,7 @@ aI0
 aI0
 aI30
 aI12
-aI0
+aI1
 asS'James Faulkner'
 p577
 (lp578
@@ -3866,7 +3866,7 @@ aI0
 aI0
 aI10
 aI9
-aI0
+aI1
 asS'Mitchell Johnson'
 p585
 (lp586
@@ -3908,7 +3908,7 @@ aI0
 aI0
 aI5
 aI11
-aI0
+aI1
 asS'Zaheer Khan'
 p591
 (lp592
@@ -3956,7 +3956,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Lasith Malinga'
 p601
 (lp602
@@ -4026,7 +4026,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Mitchell Johnson'
 p611
 (lp612
@@ -4040,7 +4040,7 @@ aI0
 aI0
 aI0
 aI8
-aI0
+aI1
 asS'Karanveer Singh'
 p613
 (lp614
@@ -4099,7 +4099,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Stuart Binny'
 p623
 (lp624
@@ -4113,7 +4113,7 @@ aI1
 aI0
 aI6
 aI3
-aI0
+aI1
 asS'Ashish Nehra'
 p625
 (lp626
@@ -4127,7 +4127,7 @@ aI0
 aI0
 aI8
 aI8
-aI0
+aI1
 asS'Anureet Singh'
 p627
 (lp628
@@ -4141,7 +4141,7 @@ aI0
 aI0
 aI41
 aI33
-aI0
+aI41
 asS'Harshal Patel'
 p629
 (lp630
@@ -4225,7 +4225,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Mitchell Starc'
 p641
 (lp642
@@ -4309,7 +4309,7 @@ aI0
 aI0
 aI0
 aI4
-aI0
+aI1
 assS'Kane Williamson'
 p653
 (dp654
@@ -4340,7 +4340,7 @@ aI0
 aI0
 aI3
 aI4
-aI0
+aI1
 asS'Ashish Nehra'
 p659
 (lp660
@@ -4483,7 +4483,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Ravichandran Ashwin'
 p681
 (lp682
@@ -4525,7 +4525,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Ravindra Jadeja'
 p687
 (lp688
@@ -4755,7 +4755,7 @@ aI0
 aI0
 aI11
 aI9
-aI0
+aI1
 asS'Imran Tahir'
 p723
 (lp724
@@ -4769,7 +4769,7 @@ aI0
 aI0
 aI16
 aI24
-aI0
+aI2
 asS'Harshal Patel'
 p725
 (lp726
@@ -4825,7 +4825,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Lasith Malinga'
 p733
 (lp734
@@ -4909,7 +4909,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI2
 asS'Zaheer Khan'
 p745
 (lp746
@@ -4923,7 +4923,7 @@ aI0
 aI0
 aI2
 aI6
-aI0
+aI1
 assS'Virat Kohli'
 p747
 (dp748
@@ -4940,7 +4940,7 @@ aI1
 aI0
 aI26
 aI29
-aI0
+aI2
 asS'Dhawal Kulkarni'
 p751
 (lp752
@@ -4954,7 +4954,7 @@ aI0
 aI0
 aI20
 aI22
-aI0
+aI1
 asS'Pawan Negi'
 p753
 (lp754
@@ -5122,7 +5122,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Ravindra Jadeja'
 p777
 (lp778
@@ -5377,7 +5377,7 @@ aI0
 aI0
 aI14
 aI9
-aI0
+aI1
 asS'Anureet Singh'
 p815
 (lp816
@@ -5391,7 +5391,7 @@ aI0
 aI0
 aI8
 aI7
-aI0
+aI1
 asS'Suresh Raina'
 p817
 (lp818
@@ -5433,7 +5433,7 @@ aI0
 aI0
 aI3
 aI6
-aI0
+aI1
 asS'Pawan Negi'
 p823
 (lp824
@@ -5503,7 +5503,7 @@ aI2
 aI0
 aI30
 aI15
-aI0
+aI2
 asS'Shane Watson'
 p833
 (lp834
@@ -5576,7 +5576,7 @@ aI1
 aI0
 aI7
 aI3
-aI0
+aI1
 assS'Naman Ojha'
 p845
 (dp846
@@ -5593,7 +5593,7 @@ aI0
 aI0
 aI4
 aI6
-aI0
+aI1
 asS'Stuart Binny'
 p849
 (lp850
@@ -5621,7 +5621,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Anureet Singh'
 p853
 (lp854
@@ -5719,7 +5719,7 @@ aI0
 aI0
 aI4
 aI5
-aI0
+aI1
 asS'Mitchell Johnson'
 p867
 (lp868
@@ -5775,7 +5775,7 @@ aI1
 aI0
 aI11
 aI7
-aI0
+aI1
 asS'Shane Watson'
 p875
 (lp876
@@ -5820,7 +5820,7 @@ aI0
 aI0
 aI3
 aI5
-aI0
+aI1
 asS'Pawan Negi'
 p883
 (lp884
@@ -5834,7 +5834,7 @@ aI0
 aI0
 aI1
 aI4
-aI0
+aI1
 asS'Harbhajan Singh'
 p885
 (lp886
@@ -5848,7 +5848,7 @@ aI0
 aI0
 aI5
 aI7
-aI0
+aI1
 asS'Amit Mishra'
 p887
 (lp888
@@ -6002,7 +6002,7 @@ aI0
 aI0
 aI2
 aI2
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p909
 (lp910
@@ -6086,7 +6086,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Chris Morris'
 p921
 (lp922
@@ -6156,7 +6156,7 @@ aI0
 aI0
 aI1
 aI5
-aI0
+aI1
 asS'Praveen Kumar'
 p931
 (lp932
@@ -6229,7 +6229,7 @@ aI0
 aI0
 aI8
 aI14
-aI0
+aI2
 asS'Andre Russell'
 p943
 (lp944
@@ -6299,7 +6299,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Mitchell Johnson'
 p953
 (lp954
@@ -6341,7 +6341,7 @@ aI2
 aI0
 aI34
 aI24
-aI0
+aI2
 asS'Piyush Chawla'
 p959
 (lp960
@@ -6372,7 +6372,7 @@ aI0
 aI0
 aI4
 aI4
-aI0
+aI1
 asS'Lasith Malinga'
 p965
 (lp966
@@ -6414,7 +6414,7 @@ aI0
 aI0
 aI3
 aI4
-aI0
+aI2
 asS'Harshal Patel'
 p971
 (lp972
@@ -6428,7 +6428,7 @@ aI0
 aI0
 aI2
 aI3
-aI0
+aI1
 asS'Moises Henriques'
 p973
 (lp974
@@ -6470,7 +6470,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Mitchell Starc'
 p979
 (lp980
@@ -6540,7 +6540,7 @@ aI0
 aI0
 aI4
 aI3
-aI0
+aI1
 asS'Praveen Kumar'
 p989
 (lp990
@@ -6630,7 +6630,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1005
 (lp1006
@@ -6686,7 +6686,7 @@ aI0
 aI0
 aI4
 aI10
-aI0
+aI1
 asS'Anureet Singh'
 p1013
 (lp1014
@@ -6742,7 +6742,7 @@ aI2
 aI0
 aI23
 aI15
-aI0
+aI2
 asS'Yuzvendra Chahal'
 p1021
 (lp1022
@@ -6756,7 +6756,7 @@ aI2
 aI0
 aI22
 aI10
-aI0
+aI1
 asS'Dwayne Bravo'
 p1023
 (lp1024
@@ -6854,7 +6854,7 @@ aI0
 aI0
 aI30
 aI16
-aI0
+aI1
 asS'Lasith Malinga'
 p1037
 (lp1038
@@ -6868,7 +6868,7 @@ aI0
 aI0
 aI11
 aI8
-aI0
+aI1
 asS'Ravichandran Ashwin'
 p1039
 (lp1040
@@ -7109,7 +7109,7 @@ aI1
 aI0
 aI19
 aI19
-aI0
+aI2
 asS'Dwayne Bravo'
 p1075
 (lp1076
@@ -7123,7 +7123,7 @@ aI1
 aI0
 aI10
 aI7
-aI0
+aI1
 asS'Harshal Patel'
 p1077
 (lp1078
@@ -7165,7 +7165,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI2
 asS'Chris Morris'
 p1083
 (lp1084
@@ -7207,7 +7207,7 @@ aI0
 aI0
 aI3
 aI4
-aI0
+aI1
 asS'Ravichandran Ashwin'
 p1089
 (lp1090
@@ -7221,7 +7221,7 @@ aI0
 aI0
 aI5
 aI13
-aI0
+aI1
 asS'Praveen Kumar'
 p1091
 (lp1092
@@ -7294,7 +7294,7 @@ aI0
 aI0
 aI8
 aI4
-aI0
+aI1
 asS'Morne Morkel'
 p1103
 (lp1104
@@ -7322,7 +7322,7 @@ aI0
 aI0
 aI9
 aI5
-aI0
+aI1
 asS'Harbhajan Singh'
 p1107
 (lp1108
@@ -7392,7 +7392,7 @@ aI2
 aI0
 aI14
 aI8
-aI0
+aI1
 asS'Zaheer Khan'
 p1117
 (lp1118
@@ -7406,7 +7406,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 assS'Chris Gayle'
 p1119
 (dp1120
@@ -7451,7 +7451,7 @@ aI1
 aI0
 aI16
 aI13
-aI0
+aI1
 asS'Harbhajan Singh'
 p1127
 (lp1128
@@ -7465,7 +7465,7 @@ aI0
 aI0
 aI4
 aI8
-aI0
+aI2
 asS'Dale Steyn'
 p1129
 (lp1130
@@ -7591,7 +7591,7 @@ aI3
 aI0
 aI24
 aI12
-aI0
+aI1
 asS'Amit Mishra'
 p1147
 (lp1148
@@ -7661,7 +7661,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Glenn Maxwell'
 p1157
 (lp1158
@@ -7689,7 +7689,7 @@ aI2
 aI0
 aI12
 aI5
-aI0
+aI1
 asS'Sunil Narine'
 p1161
 (lp1162
@@ -7731,7 +7731,7 @@ aI0
 aI0
 aI9
 aI24
-aI0
+aI1
 asS'Jasprit Bumrah'
 p1167
 (lp1168
@@ -7815,7 +7815,7 @@ aI0
 aI0
 aI4
 aI3
-aI0
+aI1
 asS'Zaheer Khan'
 p1179
 (lp1180
@@ -7843,7 +7843,7 @@ aI0
 aI0
 aI1
 aI6
-aI0
+aI1
 assS'Ankit Sharma'
 p1183
 (dp1184
@@ -7874,7 +7874,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p1189
 (lp1190
@@ -7905,7 +7905,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Ashish Nehra'
 p1195
 (lp1196
@@ -8023,7 +8023,7 @@ aI0
 aI0
 aI2
 aI5
-aI0
+aI1
 asS'Anureet Singh'
 p1215
 (lp1216
@@ -8065,7 +8065,7 @@ aI1
 aI0
 aI15
 aI12
-aI0
+aI2
 asS'Albie Morkel'
 p1221
 (lp1222
@@ -8149,7 +8149,7 @@ aI1
 aI0
 aI8
 aI8
-aI0
+aI1
 asS'Andre Russell'
 p1233
 (lp1234
@@ -8264,7 +8264,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Harshal Patel'
 p1251
 (lp1252
@@ -8435,7 +8435,7 @@ aI0
 aI0
 aI9
 aI8
-aI0
+aI1
 asS'Ankit Sharma'
 p1277
 (lp1278
@@ -8519,7 +8519,7 @@ aI4
 aI0
 aI64
 aI37
-aI0
+aI2
 asS'Harshal Patel'
 p1289
 (lp1290
@@ -8589,7 +8589,7 @@ aI0
 aI0
 aI5
 aI3
-aI0
+aI1
 asS'Ravichandran Ashwin'
 p1299
 (lp1300
@@ -8690,7 +8690,7 @@ aI0
 aI0
 aI1
 aI6
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p1315
 (lp1316
@@ -8704,7 +8704,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI1
 asS'Harshal Patel'
 p1317
 (lp1318
@@ -8777,7 +8777,7 @@ aI4
 aI0
 aI29
 aI10
-aI0
+aI1
 asS'Harshal Patel'
 p1329
 (lp1330
@@ -8819,7 +8819,7 @@ aI0
 aI0
 aI2
 aI2
-aI0
+aI1
 asS'Axar Patel'
 p1335
 (lp1336
@@ -8875,7 +8875,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Ravindra Jadeja'
 p1343
 (lp1344
@@ -8948,7 +8948,7 @@ aI0
 aI0
 aI0
 aI3
-aI0
+aI1
 assS'Shikhar Dhawan'
 p1355
 (dp1356
@@ -8965,7 +8965,7 @@ aI0
 aI0
 aI5
 aI3
-aI0
+aI1
 asS'Dwayne Bravo'
 p1359
 (lp1360
@@ -9035,7 +9035,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Mitchell Starc'
 p1369
 (lp1370
@@ -9164,7 +9164,7 @@ aI0
 aI0
 aI3
 aI5
-aI0
+aI1
 asS'Zaheer Khan'
 p1389
 (lp1390
@@ -9206,7 +9206,7 @@ aI0
 aI0
 aI6
 aI4
-aI0
+aI1
 asS'Johan Botha'
 p1395
 (lp1396
@@ -9377,7 +9377,7 @@ aI4
 aI0
 aI30
 aI10
-aI0
+aI2
 asS'Lasith Malinga'
 p1421
 (lp1422
@@ -9447,7 +9447,7 @@ aI0
 aI0
 aI6
 aI7
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1431
 (lp1432
@@ -9517,7 +9517,7 @@ aI0
 aI0
 aI13
 aI23
-aI0
+aI2
 asS'Ravichandran Ashwin'
 p1441
 (lp1442
@@ -9638,7 +9638,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Pawan Negi'
 p1463
 (lp1464
@@ -9666,7 +9666,7 @@ aI0
 aI0
 aI14
 aI18
-aI0
+aI2
 asS'Angelo Mathews'
 p1467
 (lp1468
@@ -9708,7 +9708,7 @@ aI0
 aI0
 aI2
 aI6
-aI0
+aI2
 asS'James Faulkner'
 p1473
 (lp1474
@@ -9820,7 +9820,7 @@ aI0
 aI0
 aI12
 aI14
-aI0
+aI1
 asS'Brad Hogg'
 p1489
 (lp1490
@@ -9848,7 +9848,7 @@ aI1
 aI0
 aI9
 aI7
-aI0
+aI1
 asS'Chris Morris'
 p1493
 (lp1494
@@ -9862,7 +9862,7 @@ aI0
 aI0
 aI26
 aI10
-aI0
+aI2
 asS'Lasith Malinga'
 p1495
 (lp1496
@@ -10019,7 +10019,7 @@ aI0
 aI0
 aI10
 aI5
-aI0
+aI1
 asS'Dale Steyn'
 p1519
 (lp1520
@@ -10061,7 +10061,7 @@ aI2
 aI0
 aI36
 aI32
-aI0
+aI2
 asS'Praveen Kumar'
 p1525
 (lp1526
@@ -10075,7 +10075,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Shane Watson'
 p1527
 (lp1528
@@ -10123,7 +10123,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Pawan Negi'
 p1537
 (lp1538
@@ -10137,7 +10137,7 @@ aI0
 aI0
 aI0
 aI3
-aI0
+aI1
 asS'Harbhajan Singh'
 p1539
 (lp1540
@@ -10179,7 +10179,7 @@ aI0
 aI0
 aI13
 aI20
-aI0
+aI2
 asS'Stuart Binny'
 p1545
 (lp1546
@@ -10249,7 +10249,7 @@ aI2
 aI0
 aI13
 aI3
-aI0
+aI1
 asS'Ravindra Jadeja'
 p1555
 (lp1556
@@ -10263,7 +10263,7 @@ aI0
 aI0
 aI10
 aI9
-aI0
+aI1
 asS'Imran Tahir'
 p1557
 (lp1558
@@ -10361,7 +10361,7 @@ aI0
 aI0
 aI6
 aI8
-aI0
+aI2
 asS'Andre Russell'
 p1571
 (lp1572
@@ -10448,7 +10448,7 @@ aI0
 aI0
 aI6
 aI7
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1585
 (lp1586
@@ -10546,7 +10546,7 @@ aI1
 aI0
 aI14
 aI7
-aI0
+aI1
 asS'Ankit Sharma'
 p1599
 (lp1600
@@ -10616,7 +10616,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Brad Hogg'
 p1609
 (lp1610
@@ -10672,7 +10672,7 @@ aI2
 aI0
 aI27
 aI15
-aI0
+aI2
 asS'Bhuvneshwar Kumar'
 p1617
 (lp1618
@@ -10714,7 +10714,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Praveen Kumar'
 p1623
 (lp1624
@@ -10843,7 +10843,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Axar Patel'
 p1643
 (lp1644
@@ -10930,7 +10930,7 @@ aI0
 aI0
 aI19
 aI12
-aI0
+aI1
 asS'Pawan Negi'
 p1657
 (lp1658
@@ -10958,7 +10958,7 @@ aI0
 aI0
 aI18
 aI16
-aI0
+aI2
 asS'Angelo Mathews'
 p1661
 (lp1662
@@ -11098,7 +11098,7 @@ aI0
 aI0
 aI3
 aI3
-aI0
+aI1
 asS'Varun Aaron'
 p1681
 (lp1682
@@ -11182,7 +11182,7 @@ aI0
 aI0
 aI12
 aI17
-aI0
+aI1
 asS'Mitchell Johnson'
 p1693
 (lp1694
@@ -11272,7 +11272,7 @@ aI0
 aI0
 aI4
 aI3
-aI0
+aI1
 asS'Stuart Binny'
 p1709
 (lp1710
@@ -11384,7 +11384,7 @@ aI0
 aI0
 aI1
 aI2
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1725
 (lp1726
@@ -11468,7 +11468,7 @@ aI3
 aI0
 aI55
 aI24
-aI0
+aI2
 asS'Dale Steyn'
 p1737
 (lp1738
@@ -11538,7 +11538,7 @@ aI0
 aI0
 aI28
 aI18
-aI0
+aI1
 assS'Ajinkya Rahane'
 p1747
 (dp1748
@@ -11583,7 +11583,7 @@ aI2
 aI0
 aI22
 aI20
-aI0
+aI2
 asS'Morne Morkel'
 p1755
 (lp1756
@@ -11681,7 +11681,7 @@ aI0
 aI0
 aI6
 aI8
-aI0
+aI1
 asS'Ravindra Jadeja'
 p1769
 (lp1770
@@ -11709,7 +11709,7 @@ aI0
 aI0
 aI2
 aI6
-aI0
+aI1
 asS'Dwayne Bravo'
 p1773
 (lp1774
@@ -11737,7 +11737,7 @@ aI0
 aI0
 aI13
 aI10
-aI0
+aI1
 asS'Glenn Maxwell'
 p1777
 (lp1778
@@ -11793,7 +11793,7 @@ aI0
 aI0
 aI44
 aI32
-aI0
+aI2
 asS'Yuvraj Singh'
 p1785
 (lp1786
@@ -11821,7 +11821,7 @@ aI0
 aI0
 aI46
 aI26
-aI0
+aI2
 asS'Praveen Kumar'
 p1789
 (lp1790
@@ -11897,7 +11897,7 @@ aI0
 aI0
 aI2
 aI3
-aI0
+aI1
 asS'Shane Watson'
 p1803
 (lp1804
@@ -12012,7 +12012,7 @@ aI2
 aI0
 aI14
 aI8
-aI0
+aI1
 asS'Morne Morkel'
 p1821
 (lp1822
@@ -12082,7 +12082,7 @@ aI0
 aI0
 aI7
 aI8
-aI0
+aI1
 asS'Dwayne Bravo'
 p1831
 (lp1832
@@ -12096,7 +12096,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Varun Aaron'
 p1833
 (lp1834
@@ -12110,7 +12110,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Glenn Maxwell'
 p1835
 (lp1836
@@ -12166,7 +12166,7 @@ aI0
 aI0
 aI24
 aI15
-aI0
+aI1
 asS'Jasprit Bumrah'
 p1843
 (lp1844
@@ -12222,7 +12222,7 @@ aI0
 aI0
 aI22
 aI23
-aI0
+aI2
 asS'Praveen Kumar'
 p1851
 (lp1852
@@ -12281,7 +12281,7 @@ aI0
 aI0
 aI10
 aI7
-aI0
+aI2
 asS'Morne Morkel'
 p1861
 (lp1862
@@ -12295,7 +12295,7 @@ aI0
 aI0
 aI2
 aI4
-aI0
+aI2
 asS'Bhuvneshwar Kumar'
 p1863
 (lp1864
@@ -12323,7 +12323,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Ravichandran Ashwin'
 p1867
 (lp1868
@@ -12379,7 +12379,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 assS'George Bailey'
 p1875
 (dp1876
@@ -12396,7 +12396,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1879
 (lp1880
@@ -12480,7 +12480,7 @@ aI1
 aI0
 aI15
 aI7
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p1891
 (lp1892
@@ -12494,7 +12494,7 @@ aI0
 aI0
 aI3
 aI5
-aI0
+aI1
 asS'Ravindra Jadeja'
 p1893
 (lp1894
@@ -12508,7 +12508,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Imran Tahir'
 p1895
 (lp1896
@@ -12522,7 +12522,7 @@ aI0
 aI0
 aI8
 aI10
-aI0
+aI1
 asS'Kieron Pollard'
 p1897
 (lp1898
@@ -12564,7 +12564,7 @@ aI0
 aI0
 aI5
 aI8
-aI0
+aI1
 asS'Sunil Narine'
 p1903
 (lp1904
@@ -12648,7 +12648,7 @@ aI2
 aI0
 aI23
 aI9
-aI0
+aI1
 asS'Piyush Chawla'
 p1915
 (lp1916
@@ -12721,7 +12721,7 @@ aI0
 aI0
 aI15
 aI9
-aI0
+aI1
 asS'Harshal Patel'
 p1927
 (lp1928
@@ -12766,7 +12766,7 @@ aI0
 aI0
 aI40
 aI29
-aI0
+aI1
 asS'Dhawal Kulkarni'
 p1935
 (lp1936
@@ -12836,7 +12836,7 @@ aI0
 aI0
 aI5
 aI10
-aI0
+aI1
 asS'Anureet Singh'
 p1945
 (lp1946
@@ -13147,7 +13147,7 @@ aI0
 aI0
 aI0
 aI2
-aI0
+aI1
 asS'Dale Steyn'
 p1991
 (lp1992
@@ -13175,7 +13175,7 @@ aI1
 aI0
 aI6
 aI3
-aI0
+aI1
 asS'Albie Morkel'
 p1995
 (lp1996
@@ -13189,7 +13189,7 @@ aI0
 aI0
 aI1
 aI3
-aI0
+aI1
 asS'Kieron Pollard'
 p1997
 (lp1998
@@ -13287,7 +13287,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 assS'Praveen Kumar'
 p2011
 (dp2012
@@ -13304,7 +13304,7 @@ aI0
 aI0
 aI2
 aI5
-aI0
+aI1
 asS'Brad Hogg'
 p2015
 (lp2016
@@ -13346,7 +13346,7 @@ aI0
 aI0
 aI0
 aI4
-aI0
+aI1
 asS'Johan Botha'
 p2021
 (lp2022
@@ -13419,7 +13419,7 @@ aI1
 aI0
 aI6
 aI3
-aI0
+aI1
 asS'Dale Steyn'
 p2033
 (lp2034
@@ -13433,7 +13433,7 @@ aI2
 aI0
 aI27
 aI16
-aI0
+aI1
 asS'Angelo Mathews'
 p2035
 (lp2036
@@ -13489,7 +13489,7 @@ aI0
 aI0
 aI18
 aI9
-aI0
+aI1
 asS'Varun Aaron'
 p2043
 (lp2044
@@ -13545,7 +13545,7 @@ aI0
 aI0
 aI0
 aI7
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p2051
 (lp2052
@@ -13615,7 +13615,7 @@ aI0
 aI0
 aI18
 aI11
-aI0
+aI1
 asS'Moises Henriques'
 p2061
 (lp2062
@@ -13629,7 +13629,7 @@ aI0
 aI0
 aI3
 aI6
-aI0
+aI1
 asS'Albie Morkel'
 p2063
 (lp2064
@@ -13699,7 +13699,7 @@ aI0
 aI0
 aI0
 aI1
-aI0
+aI1
 asS'Praveen Kumar'
 p2073
 (lp2074
@@ -13912,7 +13912,7 @@ aI2
 aI0
 aI18
 aI12
-aI0
+aI1
 asS'Mitchell Johnson'
 p2105
 (lp2106
@@ -13954,7 +13954,7 @@ aI0
 aI0
 aI4
 aI2
-aI0
+aI1
 asS'Yuzvendra Chahal'
 p2111
 (lp2112
@@ -13968,7 +13968,7 @@ aI1
 aI0
 aI10
 aI4
-aI0
+aI1
 asS'Praveen Kumar'
 p2113
 (lp2114
@@ -13996,7 +13996,7 @@ aI4
 aI0
 aI41
 aI30
-aI0
+aI2
 asS'Zaheer Khan'
 p2117
 (lp2118

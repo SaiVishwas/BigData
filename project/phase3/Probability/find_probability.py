@@ -12,6 +12,7 @@ def load_from_hive(filename):
 	query = sqlContext.sql("SELECT * FROM " + filename)
 	#a = sqlContext.sql("select * from batsman2")
 	#x = a.map(lambda p: p.name).collect()
+	query.show()
 
 	rows = query.rdd.map(lambda p: str(p.name) + "," + str(p.cluster)).collect()
 	
@@ -45,7 +46,7 @@ def create_cluster_vs_cluster_stats(bowler_clusters) :
 					bat_stat = player_vs_player_stat[batsman_name]
 					#print bat_stat
 					for bowler_name , bowl_stat in bat_stat.iteritems():
-						#print bowl_stat
+						print bowl_stat
 						if bowler_clusters[bowler_name] == bowl_cluster_no :
 							for n in range(0,11):
 								tmp[n] = tmp[n] + bowl_stat[n]
@@ -127,5 +128,5 @@ if __name__ == "__main__":
 	a['batmap'] = batsman_to_cluster_mapping
 	a['bowlmap'] = bowler_to_cluster_mapping
 	a['clustervscluster'] = cluster_vs_cluster_stats
-	pickle.dump(a, open("../../phase4/mapping.bin", "wb"))
+	pickle.dump(a, open("../phase4/mapping.bin", "wb"))
 
