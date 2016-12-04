@@ -21973,6 +21973,7 @@ aI0
 aI0
 aI2
 aI5
+aI1
 asS'Harshal Patel'
 p3409
 (lp3410
@@ -21998,6 +21999,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'Mitchell Starc'
 p3413
@@ -22064,6 +22066,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Bhuvneshwar Kumar'
 p3423
 (lp3424
@@ -22304,6 +22307,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'IC Pandey'
 p3463
 (lp3464
@@ -22317,6 +22321,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'DJ Muthuswami'
 p3465
 (lp3466
@@ -22343,6 +22348,7 @@ aI1
 aI0
 aI16
 aI5
+aI1
 asS'Harbhajan Singh'
 p3469
 (lp3470
@@ -22395,6 +22401,7 @@ aI0
 aI0
 aI8
 aI4
+aI1
 asS'Yuvraj Singh'
 p3477
 (lp3478
@@ -22447,6 +22454,7 @@ aI0
 aI0
 aI9
 aI5
+aI1
 asS'Morne Morkel'
 p3485
 (lp3486
@@ -22473,6 +22481,7 @@ aI2
 aI0
 aI14
 aI8
+aI1
 asS'TG Southee'
 p3489
 (lp3490
@@ -22485,6 +22494,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'NM Coulter-Nile'
 p3491
@@ -22541,6 +22551,7 @@ aI0
 aI0
 aI0
 aI3
+aI1
 asS'TA Boult'
 p3501
 (lp3502
@@ -22554,6 +22565,7 @@ aI0
 aI0
 aI2
 aI2
+aI1
 asS'Sunil Narine'
 p3503
 (lp3504
@@ -22888,6 +22900,7 @@ aI1
 aI0
 aI6
 aI3
+aI1
 assS'Dhawal Kulkarni'
 p3559
 (dp3560
@@ -22917,6 +22930,7 @@ aI0
 aI0
 aI2
 aI4
+aI1
 asS'Mitchell Starc'
 p3565
 (lp3566
@@ -22930,6 +22944,7 @@ aI0
 aI0
 aI1
 aI6
+aI1
 assS'Brendon McCullum'
 p3567
 (dp3568
@@ -22946,6 +22961,7 @@ aI0
 aI0
 aI10
 aI9
+aI1
 asS'D Wiese'
 p3571
 (lp3572
@@ -22959,6 +22975,7 @@ aI0
 aI0
 aI4
 aI4
+aI1
 asS'James Faulkner'
 p3573
 (lp3574
@@ -23024,6 +23041,7 @@ aI0
 aI0
 aI30
 aI12
+aI1
 asS'Rajat Bhatia'
 p3583
 (lp3584
@@ -23063,6 +23081,7 @@ aI0
 aI0
 aI4
 aI2
+aI1
 asS'Brad Hogg'
 p3589
 (lp3590
@@ -23075,6 +23094,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'Anureet Singh'
 p3591
@@ -23128,6 +23148,7 @@ aI2
 aI0
 aI24
 aI17
+aI1
 asS'Parvez Rasool'
 p3599
 (lp3600
@@ -23180,6 +23201,7 @@ aI1
 aI0
 aI8
 aI9
+aI1
 asS'PJ Cummins'
 p3607
 (lp3608
@@ -23206,6 +23228,7 @@ aI0
 aI0
 aI4
 aI4
+aI1
 asS'Zaheer Khan'
 p3611
 (lp3612
@@ -23245,6 +23268,7 @@ aI0
 aI0
 aI5
 aI11
+aI1
 asS'J Suchith'
 p3617
 (lp3618
@@ -23443,6 +23467,7 @@ aI0
 aI0
 aI3
 aI5
+aI1
 assS'Sanju Samson'
 p3649
 (dp3650
@@ -23511,6 +23536,7 @@ aI1
 aI0
 aI7
 aI4
+aI1
 asS'JD Unadkat'
 p3661
 (lp3662
@@ -23563,6 +23589,7 @@ aI2
 aI0
 aI17
 aI8
+aI1
 asS'Anureet Singh'
 p3669
 (lp3670
@@ -23589,6 +23616,7 @@ aI0
 aI0
 aI2
 aI5
+aI1
 asS'Sandeep Sharma'
 p3673
 (lp3674
@@ -23602,6 +23630,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'S Aravind'
 p3675
 (lp3676
@@ -23641,6 +23670,7 @@ aI1
 aI0
 aI8
 aI8
+aI1
 asS'Pawan Negi'
 p3681
 (lp3682
@@ -23680,6 +23710,7 @@ aI0
 aI0
 aI2
 aI4
+aI1
 asS'J Suchith'
 p3687
 (lp3688
@@ -23719,6 +23750,7 @@ aI2
 aI0
 aI22
 aI21
+aI1
 asS'Lasith Malinga'
 p3693
 (lp3694
@@ -23771,6 +23803,7 @@ aI0
 aI0
 aI29
 aI29
+aI1
 asS'Praveen Kumar'
 p3701
 (lp3702
@@ -23797,6 +23830,7 @@ aI0
 aI0
 aI5
 aI4
+aI1
 assS'Brad Hogg'
 p3705
 (dp3706
@@ -23907,6 +23941,7 @@ aI0
 aI0
 aI8
 aI8
+aI1
 asS'Mitchell Starc'
 p3725
 (lp3726
@@ -23933,6 +23968,7 @@ aI1
 aI0
 aI6
 aI3
+aI1
 asS'MJ McClenaghan'
 p3729
 (lp3730
@@ -23946,6 +23982,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'SN Thakur'
 p3731
 (lp3732
@@ -23972,6 +24009,7 @@ aI0
 aI0
 aI41
 aI33
+aI41
 asS'Harshal Patel'
 p3735
 (lp3736
@@ -24011,6 +24049,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Glenn Maxwell'
 p3741
 (lp3742
@@ -24037,6 +24076,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'TG Southee'
 p3745
 (lp3746
@@ -24063,6 +24103,7 @@ aI0
 aI0
 aI3
 aI6
+aI1
 asS'Mitchell Johnson'
 p3749
 (lp3750
@@ -24114,6 +24155,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'Chris Morris'
 p3757
@@ -24193,6 +24235,7 @@ aI0
 aI0
 aI0
 aI4
+aI1
 assS'Azhar Mahmood'
 p3769
 (dp3770
@@ -24222,6 +24265,7 @@ aI0
 aI0
 aI2
 aI3
+aI1
 assS'NM Coulter'
 p3775
 (dp3776
@@ -24374,6 +24418,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'Mitchell Johnson'
 p3803
 (lp3804
@@ -24387,6 +24432,7 @@ aI0
 aI0
 aI0
 aI8
+aI1
 asS'Anureet Singh'
 p3805
 (lp3806
@@ -24478,6 +24524,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'R Vinay Kumar'
 p3819
 (lp3820
@@ -24627,6 +24674,7 @@ aI0
 aI0
 aI9
 aI6
+aI1
 asS'D Wiese'
 p3845
 (lp3846
@@ -24640,6 +24688,7 @@ aI0
 aI0
 aI19
 aI16
+aI1
 asS'TA Boult'
 p3847
 (lp3848
@@ -24666,6 +24715,7 @@ aI0
 aI0
 aI5
 aI5
+aI1
 asS'Harbhajan Singh'
 p3851
 (lp3852
@@ -24718,6 +24768,7 @@ aI0
 aI0
 aI1
 aI5
+aI1
 asS'Karanveer Singh'
 p3859
 (lp3860
@@ -24757,6 +24808,7 @@ aI0
 aI0
 aI4
 aI8
+aI1
 asS'Dwayne Bravo'
 p3865
 (lp3866
@@ -24770,6 +24822,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Amit Mishra'
 p3867
 (lp3868
@@ -24783,6 +24836,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Anureet Singh'
 p3869
 (lp3870
@@ -24835,6 +24889,7 @@ aI2
 aI0
 aI30
 aI14
+aI1
 asS'Bhuvneshwar Kumar'
 p3877
 (lp3878
@@ -24900,6 +24955,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Yuzvendra Chahal'
 p3887
 (lp3888
@@ -25056,6 +25112,7 @@ aI0
 aI0
 aI10
 aI6
+aI1
 asS'I Sharma'
 p3911
 (lp3912
@@ -25124,6 +25181,7 @@ aI0
 aI0
 aI8
 aI4
+aI1
 asS'Harshal Patel'
 p3923
 (lp3924
@@ -25189,6 +25247,7 @@ aI1
 aI0
 aI8
 aI5
+aI1
 asS'Lasith Malinga'
 p3933
 (lp3934
@@ -25202,6 +25261,7 @@ aI0
 aI0
 aI15
 aI9
+aI1
 asS'Brad Hogg'
 p3935
 (lp3936
@@ -25231,6 +25291,7 @@ aI1
 aI0
 aI14
 aI7
+aI1
 asS'James Faulkner'
 p3941
 (lp3942
@@ -25257,6 +25318,7 @@ aI0
 aI0
 aI6
 aI7
+aI1
 asS'TA Boult'
 p3945
 (lp3946
@@ -25270,6 +25332,7 @@ aI0
 aI0
 aI4
 aI2
+aI1
 asS'Harbhajan Singh'
 p3947
 (lp3948
@@ -25296,6 +25359,7 @@ aI1
 aI0
 aI15
 aI5
+aI1
 asS'Lasith Malinga'
 p3951
 (lp3952
@@ -25322,6 +25386,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'MJ McClenaghan'
 p3955
 (lp3956
@@ -25491,6 +25556,7 @@ aI2
 aI0
 aI27
 aI15
+aI2
 asS'Mitchell Johnson'
 p3981
 (lp3982
@@ -25595,6 +25661,7 @@ aI0
 aI0
 aI0
 aI1
+aI1
 asS'Shane Watson'
 p3997
 (lp3998
@@ -25686,6 +25753,7 @@ aI2
 aI0
 aI30
 aI24
+aI1
 assS'Manoj Tiwary'
 p4011
 (dp4012
@@ -25754,6 +25822,7 @@ aI1
 aI0
 aI16
 aI18
+aI1
 asS'Morne Morkel'
 p4023
 (lp4024
@@ -25767,6 +25836,7 @@ aI0
 aI0
 aI18
 aI14
+aI1
 asS'Brad Hogg'
 p4025
 (lp4026
@@ -25822,6 +25892,7 @@ aI1
 aI0
 aI22
 aI14
+aI2
 asS'Ashish Nehra'
 p4035
 (lp4036
@@ -25835,6 +25906,7 @@ aI0
 aI0
 aI40
 aI29
+aI1
 asS'Angelo Mathews'
 p4037
 (lp4038
@@ -25965,6 +26037,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'AN Ahmed'
 p4057
 (lp4058
@@ -26160,6 +26233,7 @@ aI0
 aI0
 aI5
 aI10
+aI1
 asS'S Nadeem'
 p4087
 (lp4088
@@ -26293,6 +26367,7 @@ aI4
 aI0
 aI27
 aI11
+aI1
 asS'Axar Patel'
 p4109
 (lp4110
@@ -26306,6 +26381,7 @@ aI3
 aI0
 aI55
 aI24
+aI2
 asS'D Wiese'
 p4111
 (lp4112
@@ -26371,6 +26447,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'Amit Mishra'
 p4121
 (lp4122
@@ -26488,6 +26565,7 @@ aI0
 aI0
 aI10
 aI8
+aI1
 asS'Imran Tahir'
 p4139
 (lp4140
@@ -26501,6 +26579,7 @@ aI0
 aI0
 aI4
 aI3
+aI1
 asS'Pawan Negi'
 p4141
 (lp4142
@@ -26527,6 +26606,7 @@ aI0
 aI0
 aI28
 aI18
+aI1
 asS'Yuzvendra Chahal'
 p4145
 (lp4146
@@ -26864,6 +26944,7 @@ aI4
 aI0
 aI50
 aI37
+aI2
 asS'Lasith Malinga'
 p4203
 (lp4204
@@ -26955,6 +27036,7 @@ aI0
 aI0
 aI4
 aI7
+aI1
 asS'Anureet Singh'
 p4217
 (lp4218
@@ -26994,6 +27076,7 @@ aI0
 aI0
 aI31
 aI36
+aI2
 asS'Sandeep Sharma'
 p4223
 (lp4224
@@ -27137,6 +27220,7 @@ aI7
 aI0
 aI58
 aI23
+aI2
 asS'J Suchith'
 p4245
 (lp4246
@@ -27150,6 +27234,7 @@ aI0
 aI0
 aI4
 aI3
+aI1
 asS'J Yadav'
 p4247
 (lp4248
@@ -27162,6 +27247,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'UT Yadav'
 p4249
@@ -27176,6 +27262,7 @@ aI0
 aI0
 aI12
 aI14
+aI1
 asS'RS Bopara'
 p4251
 (lp4252
@@ -27228,6 +27315,7 @@ aI0
 aI0
 aI4
 aI10
+aI1
 asS'Moises Henriques'
 p4259
 (lp4260
@@ -27241,6 +27329,7 @@ aI0
 aI0
 aI2
 aI4
+aI1
 asS'S Nadeem'
 p4261
 (lp4262
@@ -27345,6 +27434,7 @@ aI0
 aI0
 aI5
 aI7
+aI1
 asS'Piyush Chawla'
 p4277
 (lp4278
@@ -27874,6 +27964,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'Dhawal Kulkarni'
 p4363
 (lp4364
@@ -28020,6 +28111,7 @@ aI0
 aI0
 aI32
 aI26
+aI2
 asS'Mitchell Starc'
 p4387
 (lp4388
@@ -28137,6 +28229,7 @@ aI2
 aI0
 aI22
 aI20
+aI2
 asS'Azhar Mahmood'
 p4405
 (lp4406
@@ -28163,6 +28256,7 @@ aI0
 aI0
 aI13
 aI10
+aI1
 asS'Sandeep Sharma'
 p4409
 (lp4410
@@ -28241,6 +28335,7 @@ aI0
 aI0
 aI44
 aI32
+aI2
 asS'Imran Tahir'
 p4421
 (lp4422
@@ -28254,6 +28349,7 @@ aI0
 aI0
 aI2
 aI6
+aI1
 asS'Iqbal Abdulla'
 p4423
 (lp4424
@@ -28293,6 +28389,7 @@ aI0
 aI0
 aI46
 aI26
+aI2
 asS'Yuzvendra Chahal'
 p4429
 (lp4430
@@ -28306,6 +28403,7 @@ aI0
 aI0
 aI6
 aI8
+aI1
 asS'J Suchith'
 p4431
 (lp4432
@@ -28384,6 +28482,7 @@ aI0
 aI0
 aI12
 aI12
+aI1
 asS'GS Sandhu'
 p4443
 (lp4444
@@ -28410,6 +28509,7 @@ aI0
 aI0
 aI12
 aI17
+aI1
 asS'Yuvraj Singh'
 p4447
 (lp4448
@@ -28533,6 +28633,7 @@ aI1
 aI0
 aI15
 aI7
+aI1
 asS'Ashish Nehra'
 p4469
 (lp4470
@@ -28546,6 +28647,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'TA Boult'
 p4471
 (lp4472
@@ -28611,6 +28713,7 @@ aI2
 aI0
 aI23
 aI9
+aI1
 asS'Ravindra Jadeja'
 p4481
 (lp4482
@@ -28623,6 +28726,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'NM Coulter-Nile'
 p4483
@@ -28767,6 +28871,7 @@ aI0
 aI0
 aI8
 aI10
+aI1
 asS'Pawan Negi'
 p4505
 (lp4506
@@ -28806,6 +28911,7 @@ aI0
 aI0
 aI3
 aI5
+aI1
 asS'J Suchith'
 p4511
 (lp4512
@@ -28897,6 +29003,7 @@ aI0
 aI0
 aI5
 aI8
+aI1
 asS'R Vinay Kumar'
 p4525
 (lp4526
@@ -29043,6 +29150,7 @@ aI0
 aI0
 aI4
 aI2
+aI1
 asS'Harbhajan Singh'
 p4549
 (lp4550
@@ -29082,6 +29190,7 @@ aI0
 aI0
 aI0
 aI6
+aI1
 asS'Brad Hogg'
 p4555
 (lp4556
@@ -29121,6 +29230,7 @@ aI0
 aI0
 aI6
 aI7
+aI1
 asS'Sunil Narine'
 p4561
 (lp4562
@@ -29134,6 +29244,7 @@ aI0
 aI0
 aI13
 aI23
+aI2
 asS'PV Tambe'
 p4563
 (lp4564
@@ -29160,6 +29271,7 @@ aI0
 aI0
 aI4
 aI5
+aI1
 asS'Imran Tahir'
 p4567
 (lp4568
@@ -29173,6 +29285,7 @@ aI4
 aI0
 aI30
 aI10
+aI2
 asS'J Suchith'
 p4569
 (lp4570
@@ -29186,6 +29299,7 @@ aI0
 aI0
 aI9
 aI5
+aI1
 asS'Dhawal Kulkarni'
 p4571
 (lp4572
@@ -30394,6 +30508,7 @@ aI0
 aI0
 aI0
 aI6
+aI1
 asS'Harbhajan Singh'
 p4763
 (lp4764
@@ -30407,6 +30522,7 @@ aI0
 aI0
 aI5
 aI7
+aI1
 asS'Pragyan Ojha'
 p4765
 (lp4766
@@ -30511,6 +30627,7 @@ aI0
 aI0
 aI35
 aI13
+aI1
 asS'AN Ahmed'
 p4781
 (lp4782
@@ -30550,6 +30667,7 @@ aI0
 aI0
 aI1
 aI2
+aI1
 asS'RS Bopara'
 p4787
 (lp4788
@@ -30602,6 +30720,7 @@ aI0
 aI0
 aI1
 aI4
+aI1
 asS'Zaheer Khan'
 p4795
 (lp4796
@@ -30641,6 +30760,7 @@ aI0
 aI0
 aI3
 aI5
+aI1
 asS'Dale Steyn'
 p4801
 (lp4802
@@ -30784,6 +30904,7 @@ aI0
 aI0
 aI2
 aI2
+aI1
 asS'Praveen Kumar'
 p4823
 (lp4824
@@ -30810,6 +30931,7 @@ aI0
 aI0
 aI1
 aI5
+aI1
 asS'SA Abbott'
 p4827
 (lp4828
@@ -30933,6 +31055,7 @@ aI1
 aI0
 aI6
 aI2
+aI1
 asS'Moises Henriques'
 p4849
 (lp4850
@@ -30975,6 +31098,7 @@ aI0
 aI0
 aI1
 aI3
+aI1
 asS'Anureet Singh'
 p4857
 (lp4858
@@ -30988,6 +31112,7 @@ aI1
 aI0
 aI6
 aI3
+aI1
 asS'Axar Patel'
 p4859
 (lp4860
@@ -31053,6 +31178,7 @@ aI0
 aI0
 aI0
 aI2
+aI1
 asS'Dale Steyn'
 p4869
 (lp4870
@@ -31143,6 +31269,7 @@ aI0
 aI0
 aI0
 aI0
+aI1
 aI1
 asS'Kieron Pollard'
 p4883
