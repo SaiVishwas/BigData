@@ -77,8 +77,11 @@ class Batsmen:
     def is_out(self):
         return self.tot_prob < 0.5
             
-    def update_prob(self):
-        self.tot_prob *= self.out_prob
+    def update_prob(self, prob=None):
+        if prob:
+            self.tot_prob *= prob
+        else:
+            self.tot_prob *= self.out_prob
         
     def increment_balls(self):
         self.balls += 1
@@ -138,7 +141,16 @@ def get_probability_of_run(batsman_name , bowler_name , runs) :
 		freq = stats[7]
 
 	probability = freq/float(balls)
-	return probability	
+	return probability
+	
+def get_probability_of_wicket(batsman_name, bowler_name):
+    bat_cluster_no = hbase.get_batsman_group(batsman_name)
+    bowl_cluster_no = hbase.get_bowler_group(bowler_name)
+    stats = hbase.get_cluster_stats(bat_cluster_no, bowl_cluster_no)
+    wickets = stats[10]
+    balls = max(sum(stats[:8]), 1) + stats[10]
+    return wickets/balls
+    
 
 def get_class(cumulative_pdf_range , n):
 	for i in range(len(cumulative_pdf_range)):
@@ -199,7 +211,7 @@ def simulate_first_inning(batting, bowling):
             else:
                 run = simulate_ball(onstrike.get_name(), currbowler.get_name())        
                 onstrike.add_runs(run)
-                onstrike.update_prob()
+                onstrike.update_prob(1 - get_probability_of_wicket(onstrike.get_name(), currbowler.get_name()))
                 currbowler.add_runs(run)
                 score += run
                 print(currbowler.get_name()+" to "+onstrike.get_name()+", Run scored : "+str(run)+", Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
@@ -270,7 +282,7 @@ def simulate_second_inning(batting, bowling, target):
             else:
                 run = simulate_ball(onstrike.get_name(), currbowler.get_name())        
                 onstrike.add_runs(run)
-                onstrike.update_prob()
+                onstrike.update_prob(1 - get_probability_of_wicket(onstrike.get_name(), currbowler.get_name()))
                 currbowler.add_runs(run)
                 score += run
                 print(currbowler.get_name()+" to "+onstrike.get_name()+", Run scored : "+str(run)+", Overs :"+str(overs)+"."+str(balls)+", "+str(score)+"/"+str(wickets))
