@@ -12,7 +12,7 @@ bowler_clusters = pickle.load( open( "bowler_clusters.p", "rb" ) )
 
 list_of_players = []
 
-for i in batsman_clusters :
+for i in batsman_clusters:
 	for j in batsman_clusters[i]:
 		list_of_players.append(j)
 
@@ -27,10 +27,10 @@ for key,val in valid_player_vs_player_stat.iteritems():
 
 valid_player_vs_player_stat = dict()
 
-for i,j in player_vs_player_stat.iteritems():
+for i,j in player_vs_player_stat.items():
 	tmp = dict()
 	if i in list_of_players:
-		for k,v in j.iteritems():
+		for k,v in j.items():
 			if k in list_of_players:
 				if len(v) == 10:
 					v.append(0)
@@ -41,13 +41,13 @@ for i,j in player_vs_player_stat.iteritems():
 
 
 fin_players = set()
-for i,j in valid_player_vs_player_stat.iteritems() :
+for i,j in valid_player_vs_player_stat.items() :
 	fin_players.add(i)
 	for x in j:
 		fin_players.add(x)
 
 #pfor i in sorted(fin_players):
 	#if i not in list_of_players:
-	print i
+	print(i)
 
 pickle.dump( valid_player_vs_player_stat , open( "playerVSplayer_stat.p", "wb" ) )  	

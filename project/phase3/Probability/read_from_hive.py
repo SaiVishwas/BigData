@@ -14,7 +14,7 @@ bank = hive_context.table("cluster.bowler")
 bank.registerTempTable("cluster.bowler")
 out = hive_context.sql("select * from bowler;")
 
-print out
+print(out)
 
 
 from pyspark.sql import HiveContext
@@ -46,7 +46,7 @@ a = sqlContext.sql("select * from batsmen")
 #x = a.map(lambda p: p.name).collect()
 
 x = a.rdd.map(lambda p: str(p.name) + "," + str(p.cluster)).collect()
-print x
+print(x)
 #print type(x)
 clusters = defaultdict(list)
 
@@ -56,7 +56,7 @@ for i in x :
 	cluster = i.split(",")[1]
 	clusters[cluster].append(name)
 
-print clusters	
+print(clusters)	
 
 #sqlContext.sql(" create table if not exists bowler2 (name string , cluster int)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'")
 #sqlContext.sql("LOAD DATA LOCAL INPATH '/home/hadoop/BigData/project/phase2/output/bowler' INTO TABLE bowler2")

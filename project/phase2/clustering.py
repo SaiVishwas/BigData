@@ -23,7 +23,7 @@ def cluster(filename, k, indices):
 
 def dump_to_hive(batsmen_file, bowler_file):
   sqlContext = HiveContext(sc)
-  sqlContext.sql("DROP DATABASE IF EXISTS ipl CASCADE")
+  #sqlContext.sql("DROP DATABASE IF EXISTS ipl CASCADE")
   sqlContext.sql("CREATE DATABASE ipl")
   sqlContext.sql("USE ipl")
 

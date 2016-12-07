@@ -29,7 +29,7 @@ def load_from_hive(filename):
 
 def player_to_cluster_mapping(clusters_of_players)		:
 	player_to_cluster = dict()
-	for i,j in clusters_of_players.iteritems():
+	for i,j in clusters_of_players.items():
 		for t in j:
 			player_to_cluster[t] = i
 	return player_to_cluster		
@@ -38,15 +38,15 @@ def create_cluster_vs_cluster_stats(bowler_clusters) :
 
 	inter_cluster_stats = [[0]*8 for i in range(8)]
 
-	for bat_cluster_no , list_of_cluster_players in clusters_of_bat.iteritems():
+	for bat_cluster_no , list_of_cluster_players in clusters_of_bat.items():
 		for bowl_cluster_no in range(0,8):
 			tmp = [0 for i in range(11)]
 			for batsman_name in list_of_cluster_players:
 				if batsman_name in player_vs_player_stat :
 					bat_stat = player_vs_player_stat[batsman_name]
 					#print bat_stat
-					for bowler_name , bowl_stat in bat_stat.iteritems():
-						print bowl_stat
+					for bowler_name , bowl_stat in bat_stat.items():
+						print(bowl_stat)
 						if bowler_clusters[bowler_name] == bowl_cluster_no :
 							for n in range(0,11):
 								tmp[n] = tmp[n] + bowl_stat[n]
@@ -79,7 +79,7 @@ def simulate(batsman_name , bowler_name , cluster_vs_cluster_stats ,batsman_to_c
 
 	for i in range(0,8)	:
 		pdf.append(get_probability_of_run(batsman_name, bowler_name , i ,cluster_vs_cluster_stats ,batsman_to_cluster_mapping , bowler_to_cluster_mapping) )
-	print pdf
+	print(pdf)
 	#print sum(pdf)	
 
 	cumulative_pdf = []
