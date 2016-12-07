@@ -10,10 +10,10 @@ def format_input(input_file , indices) :
 
 def cluster(filename, k, indices):
   stat, data = format_input("input/"+filename, indices)
-  output = file("output/"+filename, "w") 
+  output = open("output/"+filename, "w") 
   model = KMeans.train(data, k)
   cluster_centers = model.clusterCenters
-  with file("output/"+filename, "w") as f:
+  with open("output/"+filename, "w") as f:
       for x in stat.collect():
         name = str(x[0])
         num = str(model.predict(x[1]))
@@ -23,7 +23,7 @@ def cluster(filename, k, indices):
 
 def dump_to_hive(batsmen_file, bowler_file):
   sqlContext = HiveContext(sc)
-  sqlContext.sql("DROP DATABASE IF EXISTS ipl")
+  sqlContext.sql("DROP DATABASE IF EXISTS ipl CASCADE")
   sqlContext.sql("CREATE DATABASE ipl")
   sqlContext.sql("USE ipl")
 

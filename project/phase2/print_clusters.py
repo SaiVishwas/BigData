@@ -23,7 +23,7 @@ def cluster(filename, k, indices):
   return clusters,cluster_centers    
 
 def print_results(filename , clusters , cluster_centers):
-	with file("output_clusters/"+filename, "w") as f:
+	with open("output_clusters/"+filename, "w") as f:
 		for i in clusters :
 			f.write("Cluster number : " + str(i) + "\n")
 

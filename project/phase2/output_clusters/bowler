@@ -1,16 +1,16 @@
 Cluster number : 0
-Chris Gayle
-Yuzvendra Chahal
-Mitchell Starc
-Kyle Abbott
-Angelo Mathews
-Mitchell Johnson
-Jasprit Bumrah
-Ben Hilfenhaus
-Dhawal Kulkarni
-Moises Henriques
-Bhuvneshwar Kumar
-Cluster centers : [   20.             7.51181818  1887.09090909]
+Darren Sammy
+Samuel Badree
+Ravindra Jadeja
+Ashish Nehra
+Imran Tahir
+Zaheer Khan
+Brad Hogg
+Pragyan Ojha
+Rajat Bhatia
+James Faulkner
+Chris Morris
+Cluster centers : [   20.09090909     7.23181818  2764.45454545]
 
 Cluster number : 1
 S Badrinath
@@ -27,6 +27,7 @@ Karanveer Singh
 Shaun Marsh
 David Miller
 Wriddhiman Saha
+Virender Sehwag
 Gautam Gambhir
 Manish Pandey
 Robin Uthappa
@@ -39,19 +40,66 @@ David Warner
 Shikhar Dhawan
 Eoin Morgan
 Naman Ojha
+Kevin Pietersen
 Lokesh Rahul
-Cluster centers : [  3.86296296   5.23703704  35.2962963 ]
+Cluster centers : [  4.95517241   5.44137931  58.86206897]
 
 Cluster number : 2
-Ravichandran Ashwin
-Albie Morkel
-Azhar Mahmood
-Sunil Narine
-Harbhajan Singh
-Lasith Malinga
-Cluster centers : [   19.5            6.85        4547.83333333]
+Virat Kohli
+Varun Aaron
+Faf du Plessis
+Pawan Negi
+Mohammed Shami
+Anureet Singh
+Kuldeep Yadav
+Rohit Sharma
+Corey Anderson
+Ankit Sharma
+Stuart Binny
+Ben Cutting
+Steven Smith
+Kane Williamson
+Cluster centers : [  23.29285714    7.77214286  806.14285714]
 
 Cluster number : 3
+Ravichandran Ashwin
+Sunil Narine
+Harbhajan Singh
+Dale Steyn
+Cluster centers : [   20.375      6.4475  4226.25  ]
+
+Cluster number : 4
+Harshal Patel
+Suresh Raina
+Jean-Paul Duminy
+Yuvraj Singh
+Parvinder Awana
+Glenn Maxwell
+Axar Patel
+Cluster centers : [   22.28571429     7.42714286  1405.28571429]
+
+Cluster number : 5
+Dwayne Bravo
+Albie Morkel
+Azhar Mahmood
+Lasith Malinga
+Cluster centers : [   18.325     7.515  5149.   ]
+
+Cluster number : 6
+Chris Gayle
+Yuzvendra Chahal
+Mitchell Starc
+Kyle Abbott
+Angelo Mathews
+Mitchell Johnson
+Jasprit Bumrah
+Ben Hilfenhaus
+Dhawal Kulkarni
+Moises Henriques
+Bhuvneshwar Kumar
+Cluster centers : [   20.             7.51181818  1887.09090909]
+
+Cluster number : 7
 Amit Mishra
 Johan Botha
 Piyush Chawla
@@ -60,53 +108,5 @@ Andre Russell
 Kieron Pollard
 Shane Watson
 Praveen Kumar
-Dale Steyn
-Cluster centers : [   20.65555556     7.35        3663.55555556]
-
-Cluster number : 4
-Varun Aaron
-Harshal Patel
-Pawan Negi
-Suresh Raina
-Jean-Paul Duminy
-Mohammed Shami
-Yuvraj Singh
-Parvinder Awana
-Glenn Maxwell
-Axar Patel
-Stuart Binny
-Ben Cutting
-Cluster centers : [   21.96666667     7.62083333  1249.08333333]
-
-Cluster number : 5
-Dwayne Bravo
-Cluster centers : [   18.1      8.08  6239.  ]
-
-Cluster number : 6
-Darren Sammy
-Samuel Badree
-Ravindra Jadeja
-Ashish Nehra
-Imran Tahir
-Zaheer Khan
-Brad Hogg
-Pragyan Ojha
-Rajat Bhatia
-James Faulkner
-Chris Morris
-Cluster centers : [   20.09090909     7.23181818  2764.45454545]
-
-Cluster number : 7
-Virat Kohli
-Faf du Plessis
-Anureet Singh
-Virender Sehwag
-Kuldeep Yadav
-Rohit Sharma
-Corey Anderson
-Ankit Sharma
-Steven Smith
-Kevin Pietersen
-Kane Williamson
-Cluster centers : [  23.44545455    7.79545455  626.18181818]
+Cluster centers : [   20.775     7.435  3624.625]
 
